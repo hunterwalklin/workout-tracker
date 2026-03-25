@@ -27,6 +27,10 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
         <span>Week</span>
       </button>
+      <button class="nav-btn" data-tab="exercises">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        <span>Exercises</span>
+      </button>
       <button class="nav-btn" data-tab="progress">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
         <span>Progress</span>
@@ -120,6 +124,51 @@
         </div>
       </div>
     </div>
+
+    <!-- Exercises Tab -->
+    <main id="tab-exercises" class="tab-content">
+      <div class="exercises-tab-header">
+        <h2>Exercise Library</h2>
+        <div class="filter-row">
+          <select id="filter-equipment">
+            <option value="">All Equipment</option>
+            <option value="Barbell">Barbell</option>
+            <option value="Dumbbell">Dumbbell</option>
+            <option value="Machine/Cable">Machine / Cable</option>
+            <option value="Bodyweight">Bodyweight</option>
+            <option value="Band">Band</option>
+            <option value="EZ Bar">EZ Bar</option>
+          </select>
+          <select id="filter-muscle">
+            <option value="">All Muscles</option>
+            <option value="Chest">Chest</option>
+            <option value="Shoulders">Shoulders</option>
+            <option value="Back">Back</option>
+            <option value="Biceps">Biceps</option>
+            <option value="Triceps">Triceps</option>
+            <option value="Quads">Quads</option>
+            <option value="Hamstrings">Hamstrings</option>
+            <option value="Glutes">Glutes</option>
+            <option value="Calves">Calves</option>
+            <option value="Core">Core</option>
+            <option value="Full Body">Full Body</option>
+          </select>
+        </div>
+      </div>
+      <div id="exercises-table-wrap">
+        <table class="exercises-table" id="exercises-table">
+          <thead>
+            <tr>
+              <th class="sortable" data-sort="name">Exercise</th>
+              <th class="sortable" data-sort="equipment">Equipment</th>
+              <th class="sortable" data-sort="muscle">Primary Muscle</th>
+            </tr>
+          </thead>
+          <tbody id="exercises-tbody"></tbody>
+        </table>
+      </div>
+      <p id="exercises-count" class="exercises-count"></p>
+    </main>
 
     <!-- Progress Tab -->
     <main id="tab-progress" class="tab-content">

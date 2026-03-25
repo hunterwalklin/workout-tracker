@@ -67,6 +67,7 @@
       btn.classList.add('active');
       document.getElementById('tab-' + tab).classList.add('active');
       if (tab === 'progress') refreshProgressOptions();
+      if (tab === 'exercises') renderExercisesTab();
     });
   });
 
@@ -449,6 +450,160 @@
       }
     });
   }
+
+  // === Exercise Library ===
+  const EXERCISE_CATALOG = {
+    // Barbell
+    "BB Bench Press":        { equipment: "Barbell", muscles: "Chest, Triceps" },
+    "Incline BB Bench Press": { equipment: "Barbell", muscles: "Chest, Shoulders" },
+    "BB Overhead Press":     { equipment: "Barbell", muscles: "Shoulders, Triceps" },
+    "BB Back Squat":         { equipment: "Barbell", muscles: "Quads, Glutes" },
+    "BB Deadlift":           { equipment: "Barbell", muscles: "Hamstrings, Back, Glutes" },
+    "BB RDL":                { equipment: "Barbell", muscles: "Hamstrings, Glutes" },
+    "BB Bent Over Row":      { equipment: "Barbell", muscles: "Back, Biceps" },
+
+    // Dumbbell (pair)
+    "DB Bench Press":        { equipment: "Dumbbell", muscles: "Chest, Triceps" },
+    "Incline DB Bench Press": { equipment: "Dumbbell", muscles: "Chest, Shoulders" },
+    "DB Chest Fly":          { equipment: "Dumbbell", muscles: "Chest" },
+    "DB Shoulder Press":     { equipment: "Dumbbell", muscles: "Shoulders, Triceps" },
+    "DB Lateral Raises":     { equipment: "Dumbbell", muscles: "Shoulders" },
+    "DB Front Raises":       { equipment: "Dumbbell", muscles: "Shoulders" },
+    "DB Upright Row":        { equipment: "Dumbbell", muscles: "Shoulders, Traps" },
+    "Hammer Curls":          { equipment: "Dumbbell", muscles: "Biceps" },
+    "Seated Incline DB Curls": { equipment: "Dumbbell", muscles: "Biceps" },
+    "Single Arm DB Curl":    { equipment: "Dumbbell", muscles: "Biceps" },
+    "Seated DB Curls":       { equipment: "Dumbbell", muscles: "Biceps" },
+    "Standing DB Curls":     { equipment: "Dumbbell", muscles: "Biceps" },
+    "Seated DB Hammer Curls": { equipment: "Dumbbell", muscles: "Biceps" },
+    "DB Preacher Curl":      { equipment: "Dumbbell", muscles: "Biceps" },
+    "DB Goblet Squat":       { equipment: "Dumbbell", muscles: "Quads, Glutes" },
+    "DB Front Squat":        { equipment: "Dumbbell", muscles: "Quads" },
+    "DB Bulgarian Split Squat": { equipment: "Dumbbell", muscles: "Quads, Glutes" },
+    "DB Lunges":             { equipment: "Dumbbell", muscles: "Quads, Glutes" },
+
+    // EZ Bar
+    "EZ Bar Preacher Curls": { equipment: "EZ Bar", muscles: "Biceps" },
+
+    // Machine / Cable
+    "Chest Press Machine":   { equipment: "Machine/Cable", muscles: "Chest, Triceps" },
+    "Incline Chest Press Machine": { equipment: "Machine/Cable", muscles: "Chest, Shoulders" },
+    "Pec Deck":              { equipment: "Machine/Cable", muscles: "Chest" },
+    "Reverse Fly Machine":   { equipment: "Machine/Cable", muscles: "Rear Delts, Back" },
+    "Rear Delt Machine":     { equipment: "Machine/Cable", muscles: "Rear Delts" },
+    "Lat Raise Machine":     { equipment: "Machine/Cable", muscles: "Shoulders" },
+    "Lat Pulldowns":         { equipment: "Machine/Cable", muscles: "Back, Biceps" },
+    "Seated Cable Row":      { equipment: "Machine/Cable", muscles: "Back, Biceps" },
+    "Seated Cable Row (Wide Grip)": { equipment: "Machine/Cable", muscles: "Back" },
+    "Cable Curls":           { equipment: "Machine/Cable", muscles: "Biceps" },
+    "Cable Straight Bar Pushdowns": { equipment: "Machine/Cable", muscles: "Triceps" },
+    "Tricep Extension Machine": { equipment: "Machine/Cable", muscles: "Triceps" },
+    "Tricep Rope Extensions": { equipment: "Machine/Cable", muscles: "Triceps" },
+    "Upright Cable Rows":    { equipment: "Machine/Cable", muscles: "Shoulders, Traps" },
+    "Leg Press":             { equipment: "Machine/Cable", muscles: "Quads, Glutes" },
+    "Leg Extensions":        { equipment: "Machine/Cable", muscles: "Quads" },
+    "Leg Curls":             { equipment: "Machine/Cable", muscles: "Hamstrings" },
+    "Hip Abduction":         { equipment: "Machine/Cable", muscles: "Glutes" },
+    "Hip Adduction":         { equipment: "Machine/Cable", muscles: "Adductors" },
+    "Smith Squat":           { equipment: "Machine/Cable", muscles: "Quads, Glutes" },
+    "Smith Calf Raises":     { equipment: "Machine/Cable", muscles: "Calves" },
+    "Seated Calf Raises":    { equipment: "Machine/Cable", muscles: "Calves" },
+    "Standing Calf Raises":  { equipment: "Machine/Cable", muscles: "Calves" },
+    "Calf Raises":           { equipment: "Machine/Cable", muscles: "Calves" },
+
+    // Bodyweight / Band / Other
+    "Lunges":                { equipment: "Bodyweight", muscles: "Quads, Glutes" },
+    "Reverse Lunges":        { equipment: "Dumbbell", muscles: "Quads, Glutes" },
+    "Forward Lunges":        { equipment: "Dumbbell", muscles: "Quads, Glutes" },
+    "Kettlebell Swings":     { equipment: "Dumbbell", muscles: "Hamstrings, Glutes, Core" },
+    "Band Pull Aparts":      { equipment: "Band", muscles: "Rear Delts, Back" },
+    "Resistance Band Curls": { equipment: "Band", muscles: "Biceps" },
+
+    // Core
+    "Decline Ball Sit-Ups":  { equipment: "Bodyweight", muscles: "Core" },
+    "Decline Bench Sit-Ups": { equipment: "Bodyweight", muscles: "Core" },
+    "Russian Twists":        { equipment: "Bodyweight", muscles: "Core" },
+    "Penguins":              { equipment: "Bodyweight", muscles: "Core" },
+    "Planks":                { equipment: "Bodyweight", muscles: "Core" },
+    "Knee Ups":              { equipment: "Bodyweight", muscles: "Core" },
+    "Leg Ups":               { equipment: "Bodyweight", muscles: "Core" },
+  };
+
+  let exerciseSortCol = 'name';
+  let exerciseSortAsc = true;
+
+  function renderExercisesTab() {
+    const filterEquip = document.getElementById('filter-equipment').value;
+    const filterMuscle = document.getElementById('filter-muscle').value;
+    const tbody = document.getElementById('exercises-tbody');
+
+    // Build list: catalog + any unknown from data
+    const allNames = new Set(Object.keys(EXERCISE_CATALOG));
+    for (const name of Storage.getExerciseNames()) {
+      allNames.add(name);
+    }
+
+    let rows = Array.from(allNames).map(name => {
+      const info = EXERCISE_CATALOG[name] || { equipment: '—', muscles: '—' };
+      return { name, equipment: info.equipment, muscles: info.muscles };
+    });
+
+    // Filter
+    if (filterEquip) rows = rows.filter(r => r.equipment === filterEquip);
+    if (filterMuscle) rows = rows.filter(r => r.muscles.includes(filterMuscle));
+
+    // Sort
+    rows.sort((a, b) => {
+      const va = a[exerciseSortCol].toLowerCase();
+      const vb = b[exerciseSortCol].toLowerCase();
+      return exerciseSortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+    });
+
+    // Equipment badge colors
+    const equipColors = {
+      'Barbell': 'var(--accent-red)',
+      'Dumbbell': 'var(--accent-blue)',
+      'Machine/Cable': 'var(--accent-green)',
+      'EZ Bar': 'var(--accent-orange)',
+      'Bodyweight': 'var(--accent-teal)',
+      'Band': 'var(--accent-yellow)',
+    };
+
+    tbody.innerHTML = rows.map(r => {
+      const color = equipColors[r.equipment] || 'var(--text-muted)';
+      return `<tr>
+        <td class="exercise-name-cell">${escapeHtml(r.name)}</td>
+        <td><span class="equip-badge" style="--badge-color:${color}">${escapeHtml(r.equipment)}</span></td>
+        <td class="muscle-cell">${escapeHtml(r.muscles)}</td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('exercises-count').textContent = `${rows.length} exercises`;
+
+    // Sort headers
+    document.querySelectorAll('.exercises-table th.sortable').forEach(th => {
+      th.classList.toggle('sorted-asc', th.dataset.sort === exerciseSortCol && exerciseSortAsc);
+      th.classList.toggle('sorted-desc', th.dataset.sort === exerciseSortCol && !exerciseSortAsc);
+    });
+  }
+
+  // Sort click handlers
+  document.querySelectorAll('.exercises-table th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      if (exerciseSortCol === col) {
+        exerciseSortAsc = !exerciseSortAsc;
+      } else {
+        exerciseSortCol = col;
+        exerciseSortAsc = true;
+      }
+      renderExercisesTab();
+    });
+  });
+
+  // Filter change handlers
+  document.getElementById('filter-equipment').addEventListener('change', renderExercisesTab);
+  document.getElementById('filter-muscle').addEventListener('change', renderExercisesTab);
 
   // === Settings Modal ===
   const settingsModal = document.getElementById('settings-modal');
