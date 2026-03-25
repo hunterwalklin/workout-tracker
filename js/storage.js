@@ -122,5 +122,22 @@ const Storage = {
       }
     }
     this.saveAll(existing);
+  },
+
+  // Load backfill data on first visit
+  async loadBackfill() {
+    const BACKFILL_KEY = 'workout_tracker_backfilled';
+    if (localStorage.getItem(BACKFILL_KEY)) return false;
+    try {
+      const res = await fetch('backfill_data.json');
+      if (!res.ok) return false;
+      const data = await res.json();
+      this.importData(JSON.stringify(data));
+      localStorage.setItem(BACKFILL_KEY, '1');
+      return true;
+    } catch (e) {
+      console.warn('Backfill load failed:', e);
+      return false;
+    }
   }
 };

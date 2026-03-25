@@ -574,6 +574,13 @@
   }
 
   // === Init ===
-  renderWeek();
-  initialSync();
+  async function init() {
+    const backfilled = await Storage.loadBackfill();
+    renderWeek();
+    if (backfilled) {
+      showToast('Loaded your workout history!', 'success');
+    }
+    initialSync();
+  }
+  init();
 })();
