@@ -6,7 +6,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 15,
@@ -24,7 +24,7 @@
             "id": "bf0002"
           },
           {
-            "name": "incline bench machine",
+            "name": "Incline Chest Press Machine",
             "sets": [
               {
                 "reps": 15,
@@ -42,7 +42,7 @@
             "id": "bf0003"
           },
           {
-            "name": "DB shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 15,
@@ -60,7 +60,7 @@
             "id": "bf0004"
           },
           {
-            "name": "machine rear delt",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 15,
@@ -78,7 +78,7 @@
             "id": "bf0005"
           },
           {
-            "name": "lunges",
+            "name": "Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -96,7 +96,7 @@
             "id": "bf0006"
           },
           {
-            "name": "straight bar pushdowns",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 15,
@@ -120,7 +120,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "back squat",
+            "name": "BB Back Squat",
             "sets": [
               {
                 "reps": 15,
@@ -138,7 +138,7 @@
             "id": "bf0010"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 15,
@@ -156,7 +156,7 @@
             "id": "bf0011"
           },
           {
-            "name": "kettleball swings",
+            "name": "Kettlebell Swings",
             "sets": [
               {
                 "reps": 15,
@@ -174,7 +174,7 @@
             "id": "bf0012"
           },
           {
-            "name": "goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 15,
@@ -192,7 +192,7 @@
             "id": "bf0013"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 15,
@@ -210,7 +210,7 @@
             "id": "bf0014"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 15,
@@ -234,7 +234,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "barbell row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 15,
@@ -252,7 +252,7 @@
             "id": "bf0018"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 15,
@@ -270,7 +270,7 @@
             "id": "bf0019"
           },
           {
-            "name": "incline DB curl",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 15,
@@ -288,25 +288,25 @@
             "id": "bf0020"
           },
           {
-            "name": "preacher curl",
+            "name": "DB Preacher Curl",
             "sets": [
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               }
             ],
             "id": "bf0021"
           },
           {
-            "name": "hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 15,
@@ -324,7 +324,7 @@
             "id": "bf0022"
           },
           {
-            "name": "hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 15,
@@ -352,7 +352,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 15,
@@ -370,7 +370,7 @@
             "id": "bf0026"
           },
           {
-            "name": "DB shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 15,
@@ -388,7 +388,7 @@
             "id": "bf0027"
           },
           {
-            "name": "incline bench machine",
+            "name": "Incline Chest Press Machine",
             "sets": [
               {
                 "reps": 15,
@@ -406,7 +406,7 @@
             "id": "bf0028"
           },
           {
-            "name": "tricep rope extensions",
+            "name": "Tricep Rope Extensions",
             "sets": [
               {
                 "reps": 15,
@@ -424,7 +424,7 @@
             "id": "bf0029"
           },
           {
-            "name": "lunges",
+            "name": "Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -442,7 +442,7 @@
             "id": "bf0030"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 15,
@@ -466,7 +466,7 @@
         "type": "Full Body",
         "exercises": [
           {
-            "name": "bb bench",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -484,7 +484,7 @@
             "id": "bf0034"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 12,
@@ -502,7 +502,7 @@
             "id": "bf0035"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -520,7 +520,7 @@
             "id": "bf0036"
           },
           {
-            "name": "goblet squats",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -538,7 +538,7 @@
             "id": "bf0037"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -556,7 +556,7 @@
             "id": "bf0038"
           },
           {
-            "name": "db chest fly",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -574,7 +574,7 @@
             "id": "bf0039"
           },
           {
-            "name": "calf raises",
+            "name": "Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -592,7 +592,7 @@
             "id": "bf0040"
           },
           {
-            "name": "db bulgarian split",
+            "name": "DB Bulgarian Split Squat",
             "sets": [
               {
                 "reps": 8,
@@ -616,25 +616,25 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated bicep curls",
+            "name": "Seated DB Curls",
             "sets": [
               {
                 "reps": 15,
-                "weight": 25.0
+                "weight": 50.0
               },
               {
                 "reps": 15,
-                "weight": 25.0
+                "weight": 50.0
               },
               {
                 "reps": 15,
-                "weight": 25.0
+                "weight": 50.0
               }
             ],
             "id": "bf0044"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 15,
@@ -652,7 +652,7 @@
             "id": "bf0045"
           },
           {
-            "name": "resistance band curls",
+            "name": "Resistance Band Curls",
             "sets": [
               {
                 "reps": 15,
@@ -670,7 +670,7 @@
             "id": "bf0046"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 15,
@@ -688,7 +688,7 @@
             "id": "bf0047"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 15,
@@ -706,7 +706,7 @@
             "id": "bf0048"
           },
           {
-            "name": "db front squat",
+            "name": "DB Front Squat",
             "sets": [
               {
                 "reps": 15,
@@ -724,7 +724,7 @@
             "id": "bf0049"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 15,
@@ -742,7 +742,7 @@
             "id": "bf0050"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -760,7 +760,7 @@
             "id": "bf0051"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -806,7 +806,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "Incline DB Bench",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 15,
@@ -824,7 +824,7 @@
             "id": "bf0056"
           },
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 15,
@@ -842,7 +842,7 @@
             "id": "bf0057"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 15,
@@ -860,7 +860,7 @@
             "id": "bf0058"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -878,7 +878,7 @@
             "id": "bf0059"
           },
           {
-            "name": "BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 15,
@@ -896,7 +896,7 @@
             "id": "bf0060"
           },
           {
-            "name": "cable straight bar pushdowns",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 15,
@@ -920,7 +920,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "BB back squat",
+            "name": "BB Back Squat",
             "sets": [
               {
                 "reps": 15,
@@ -938,7 +938,7 @@
             "id": "bf0064"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 15,
@@ -956,7 +956,7 @@
             "id": "bf0065"
           },
           {
-            "name": "goblet squats",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 15,
@@ -974,7 +974,7 @@
             "id": "bf0066"
           },
           {
-            "name": "machine incline chest press",
+            "name": "Incline Chest Press Machine",
             "sets": [
               {
                 "reps": 15,
@@ -992,7 +992,7 @@
             "id": "bf0067"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 15,
@@ -1010,7 +1010,7 @@
             "id": "bf0068"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 15,
@@ -1028,7 +1028,7 @@
             "id": "bf0069"
           },
           {
-            "name": "calf raises",
+            "name": "Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -1052,7 +1052,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "db preacher curl",
+            "name": "DB Preacher Curl",
             "sets": [
               {
                 "reps": 15,
@@ -1070,7 +1070,7 @@
             "id": "bf0073"
           },
           {
-            "name": "EZ bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 15,
@@ -1088,7 +1088,7 @@
             "id": "bf0074"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 15,
@@ -1106,7 +1106,7 @@
             "id": "bf0075"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -1124,7 +1124,7 @@
             "id": "bf0076"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -1142,7 +1142,7 @@
             "id": "bf0077"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 15,
@@ -1160,7 +1160,7 @@
             "id": "bf0078"
           },
           {
-            "name": "cable bicep curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 15,
@@ -1178,19 +1178,19 @@
             "id": "bf0079"
           },
           {
-            "name": "lat raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 15,
-                "weight": 15.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 15.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 15.0
+                "weight": 30.0
               }
             ],
             "id": "bf0080"
@@ -1206,7 +1206,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 15,
@@ -1224,7 +1224,7 @@
             "id": "bf0083"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 15,
@@ -1242,7 +1242,7 @@
             "id": "bf0084"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 15,
@@ -1260,25 +1260,25 @@
             "id": "bf0085"
           },
           {
-            "name": "lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 10.0
+                "weight": 20.0
               }
             ],
             "id": "bf0086"
           },
           {
-            "name": "cable straight bar pushdowns",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 15,
@@ -1296,7 +1296,7 @@
             "id": "bf0087"
           },
           {
-            "name": "lat pulldown",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 15,
@@ -1314,7 +1314,7 @@
             "id": "bf0088"
           },
           {
-            "name": "Goblet squats",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 15,
@@ -1338,7 +1338,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "bb deadlift",
+            "name": "BB Deadlift",
             "sets": [
               {
                 "reps": 15,
@@ -1356,7 +1356,7 @@
             "id": "bf0092"
           },
           {
-            "name": "goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 15,
@@ -1374,7 +1374,7 @@
             "id": "bf0093"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 15,
@@ -1392,7 +1392,7 @@
             "id": "bf0094"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 15,
@@ -1410,7 +1410,7 @@
             "id": "bf0095"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 15,
@@ -1428,7 +1428,7 @@
             "id": "bf0096"
           },
           {
-            "name": "calf raises",
+            "name": "Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -1446,7 +1446,7 @@
             "id": "bf0097"
           },
           {
-            "name": "machine incline chest press",
+            "name": "Incline Chest Press Machine",
             "sets": [
               {
                 "reps": 15,
@@ -1464,7 +1464,7 @@
             "id": "bf0098"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 15,
@@ -1488,7 +1488,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 15,
@@ -1506,7 +1506,7 @@
             "id": "bf0102"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 15,
@@ -1524,7 +1524,7 @@
             "id": "bf0103"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -1542,7 +1542,7 @@
             "id": "bf0104"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 15,
@@ -1560,7 +1560,7 @@
             "id": "bf0105"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 15,
@@ -1578,7 +1578,7 @@
             "id": "bf0106"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 15,
@@ -1596,7 +1596,7 @@
             "id": "bf0107"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 15,
@@ -1614,7 +1614,7 @@
             "id": "bf0108"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -1632,7 +1632,7 @@
             "id": "bf0109"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -1678,7 +1678,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db bench",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -1696,7 +1696,7 @@
             "id": "bf0114"
           },
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -1714,7 +1714,7 @@
             "id": "bf0115"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -1732,7 +1732,7 @@
             "id": "bf0116"
           },
           {
-            "name": "db chest fly",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 12,
@@ -1750,7 +1750,7 @@
             "id": "bf0117"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 12,
@@ -1768,7 +1768,7 @@
             "id": "bf0118"
           },
           {
-            "name": "cable straight bar pushdowns",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -1786,7 +1786,7 @@
             "id": "bf0119"
           },
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 12,
@@ -1810,7 +1810,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -1828,7 +1828,7 @@
             "id": "bf0123"
           },
           {
-            "name": "forward lunges",
+            "name": "Forward Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -1846,7 +1846,7 @@
             "id": "bf0124"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -1864,7 +1864,7 @@
             "id": "bf0125"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -1882,7 +1882,7 @@
             "id": "bf0126"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -1900,7 +1900,7 @@
             "id": "bf0127"
           },
           {
-            "name": "machine chest press",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -1924,7 +1924,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 12,
@@ -1942,7 +1942,7 @@
             "id": "bf0131"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 12,
@@ -1960,7 +1960,7 @@
             "id": "bf0132"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -1978,7 +1978,7 @@
             "id": "bf0133"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 12,
@@ -1996,7 +1996,7 @@
             "id": "bf0134"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 12,
@@ -2014,7 +2014,7 @@
             "id": "bf0135"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -2032,7 +2032,7 @@
             "id": "bf0136"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2060,7 +2060,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -2078,7 +2078,7 @@
             "id": "bf0140"
           },
           {
-            "name": "machine chest press",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2096,7 +2096,7 @@
             "id": "bf0141"
           },
           {
-            "name": "BB overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -2114,7 +2114,7 @@
             "id": "bf0142"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -2132,7 +2132,7 @@
             "id": "bf0143"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 12,
@@ -2150,7 +2150,7 @@
             "id": "bf0144"
           },
           {
-            "name": "trciep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2174,7 +2174,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -2192,7 +2192,7 @@
             "id": "bf0148"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -2210,7 +2210,7 @@
             "id": "bf0149"
           },
           {
-            "name": "standing calf raises",
+            "name": "Standing Calf Raises",
             "sets": [
               {
                 "reps": 12,
@@ -2228,7 +2228,7 @@
             "id": "bf0150"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2252,7 +2252,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -2270,7 +2270,7 @@
             "id": "bf0154"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -2288,7 +2288,7 @@
             "id": "bf0155"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 12,
@@ -2306,7 +2306,7 @@
             "id": "bf0156"
           },
           {
-            "name": "bb deadlift",
+            "name": "BB Deadlift",
             "sets": [
               {
                 "reps": 12,
@@ -2324,7 +2324,7 @@
             "id": "bf0157"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -2342,7 +2342,7 @@
             "id": "bf0158"
           },
           {
-            "name": "db chest fly",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 12,
@@ -2360,7 +2360,7 @@
             "id": "bf0159"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -2378,7 +2378,7 @@
             "id": "bf0160"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -2396,7 +2396,7 @@
             "id": "bf0161"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -2414,7 +2414,7 @@
             "id": "bf0162"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -2432,7 +2432,7 @@
             "id": "bf0163"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -2478,7 +2478,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -2496,7 +2496,7 @@
             "id": "bf0168"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -2514,7 +2514,7 @@
             "id": "bf0169"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2532,7 +2532,7 @@
             "id": "bf0170"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -2550,7 +2550,7 @@
             "id": "bf0171"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -2568,7 +2568,7 @@
             "id": "bf0172"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -2586,7 +2586,7 @@
             "id": "bf0173"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -2604,7 +2604,7 @@
             "id": "bf0174"
           },
           {
-            "name": "machine chest press",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2628,7 +2628,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -2646,7 +2646,7 @@
             "id": "bf0178"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -2664,7 +2664,7 @@
             "id": "bf0179"
           },
           {
-            "name": "standing calf raises",
+            "name": "Standing Calf Raises",
             "sets": [
               {
                 "reps": 12,
@@ -2682,7 +2682,7 @@
             "id": "bf0180"
           },
           {
-            "name": "bb bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -2700,7 +2700,7 @@
             "id": "bf0181"
           },
           {
-            "name": "incline db bench",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -2718,7 +2718,7 @@
             "id": "bf0182"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 12,
@@ -2736,7 +2736,7 @@
             "id": "bf0183"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 12,
@@ -2760,25 +2760,25 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "standing bicep curls",
+            "name": "Standing DB Curls",
             "sets": [
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 60.0
               },
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 60.0
               },
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 60.0
               }
             ],
             "id": "bf0187"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -2806,7 +2806,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -2824,7 +2824,7 @@
             "id": "bf0191"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -2842,7 +2842,7 @@
             "id": "bf0192"
           },
           {
-            "name": "bb squat",
+            "name": "BB Back Squat",
             "sets": [
               {
                 "reps": 12,
@@ -2860,7 +2860,7 @@
             "id": "bf0193"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -2878,7 +2878,7 @@
             "id": "bf0194"
           },
           {
-            "name": "straight bar pushdowns",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -2896,7 +2896,7 @@
             "id": "bf0195"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -2920,7 +2920,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -2938,7 +2938,7 @@
             "id": "bf0199"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -2956,7 +2956,7 @@
             "id": "bf0200"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -2974,7 +2974,7 @@
             "id": "bf0201"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -2992,7 +2992,7 @@
             "id": "bf0202"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 12,
@@ -3010,7 +3010,7 @@
             "id": "bf0203"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -3028,7 +3028,7 @@
             "id": "bf0204"
           },
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 12,
@@ -3056,7 +3056,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -3074,7 +3074,7 @@
             "id": "bf0208"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3092,7 +3092,7 @@
             "id": "bf0209"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -3110,7 +3110,7 @@
             "id": "bf0210"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -3128,7 +3128,7 @@
             "id": "bf0211"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 12,
@@ -3146,7 +3146,7 @@
             "id": "bf0212"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -3170,7 +3170,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "single arm db curl",
+            "name": "Single Arm DB Curl",
             "sets": [
               {
                 "reps": 10,
@@ -3188,7 +3188,7 @@
             "id": "bf0216"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 12,
@@ -3206,7 +3206,7 @@
             "id": "bf0217"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 12,
@@ -3224,7 +3224,7 @@
             "id": "bf0218"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -3242,7 +3242,7 @@
             "id": "bf0219"
           },
           {
-            "name": "db lat raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 12,
@@ -3260,7 +3260,7 @@
             "id": "bf0220"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -3278,7 +3278,7 @@
             "id": "bf0221"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -3306,7 +3306,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -3324,7 +3324,7 @@
             "id": "bf0225"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -3342,7 +3342,7 @@
             "id": "bf0226"
           },
           {
-            "name": "reverse fly",
+            "name": "Reverse Fly Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3360,7 +3360,7 @@
             "id": "bf0227"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3378,7 +3378,7 @@
             "id": "bf0228"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -3396,7 +3396,7 @@
             "id": "bf0229"
           },
           {
-            "name": "smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -3414,7 +3414,7 @@
             "id": "bf0230"
           },
           {
-            "name": "Upright cable rows",
+            "name": "Upright Cable Rows",
             "sets": [
               {
                 "reps": 10,
@@ -3438,7 +3438,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -3456,7 +3456,7 @@
             "id": "bf0234"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -3474,7 +3474,7 @@
             "id": "bf0235"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -3492,7 +3492,7 @@
             "id": "bf0236"
           },
           {
-            "name": "bb deadlift",
+            "name": "BB Deadlift",
             "sets": [
               {
                 "reps": 10,
@@ -3510,7 +3510,7 @@
             "id": "bf0237"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -3528,7 +3528,7 @@
             "id": "bf0238"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -3556,7 +3556,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -3574,7 +3574,7 @@
             "id": "bf0242"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -3592,7 +3592,7 @@
             "id": "bf0243"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -3610,7 +3610,7 @@
             "id": "bf0244"
           },
           {
-            "name": "lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3628,7 +3628,7 @@
             "id": "bf0245"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -3646,7 +3646,7 @@
             "id": "bf0246"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -3664,7 +3664,7 @@
             "id": "bf0247"
           },
           {
-            "name": "Decline bench sit-ups",
+            "name": "Decline Bench Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -3688,7 +3688,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -3706,7 +3706,7 @@
             "id": "bf0251"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -3724,7 +3724,7 @@
             "id": "bf0252"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -3742,7 +3742,7 @@
             "id": "bf0253"
           },
           {
-            "name": "bb deadlift",
+            "name": "BB Deadlift",
             "sets": [
               {
                 "reps": 10,
@@ -3760,7 +3760,7 @@
             "id": "bf0254"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -3778,7 +3778,7 @@
             "id": "bf0255"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -3806,7 +3806,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -3824,7 +3824,7 @@
             "id": "bf0259"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -3842,7 +3842,7 @@
             "id": "bf0260"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3860,7 +3860,7 @@
             "id": "bf0261"
           },
           {
-            "name": "DB shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -3878,7 +3878,7 @@
             "id": "bf0262"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -3896,7 +3896,7 @@
             "id": "bf0263"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -3914,7 +3914,7 @@
             "id": "bf0264"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -3932,7 +3932,7 @@
             "id": "bf0265"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -3974,7 +3974,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -3992,7 +3992,7 @@
             "id": "bf0270"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -4010,7 +4010,7 @@
             "id": "bf0271"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -4028,7 +4028,7 @@
             "id": "bf0272"
           },
           {
-            "name": "Db lunges",
+            "name": "DB Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -4046,7 +4046,7 @@
             "id": "bf0273"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -4064,7 +4064,7 @@
             "id": "bf0274"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -4082,7 +4082,7 @@
             "id": "bf0275"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4110,7 +4110,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4128,7 +4128,7 @@
             "id": "bf0279"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4146,7 +4146,7 @@
             "id": "bf0280"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -4164,7 +4164,7 @@
             "id": "bf0281"
           },
           {
-            "name": "reverse fly",
+            "name": "Reverse Fly Machine",
             "sets": [
               {
                 "reps": 10,
@@ -4182,7 +4182,7 @@
             "id": "bf0282"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4200,7 +4200,7 @@
             "id": "bf0283"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -4218,7 +4218,7 @@
             "id": "bf0284"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -4246,7 +4246,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4264,7 +4264,7 @@
             "id": "bf0288"
           },
           {
-            "name": "DB shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -4282,7 +4282,7 @@
             "id": "bf0289"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -4300,7 +4300,7 @@
             "id": "bf0290"
           },
           {
-            "name": "tricep rope extensions",
+            "name": "Tricep Rope Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -4318,7 +4318,7 @@
             "id": "bf0291"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4346,7 +4346,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4364,7 +4364,7 @@
             "id": "bf0295"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4382,7 +4382,7 @@
             "id": "bf0296"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4400,7 +4400,7 @@
             "id": "bf0297"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -4418,7 +4418,7 @@
             "id": "bf0298"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -4446,7 +4446,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -4464,7 +4464,7 @@
             "id": "bf0302"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -4482,7 +4482,7 @@
             "id": "bf0303"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -4500,7 +4500,7 @@
             "id": "bf0304"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -4518,7 +4518,7 @@
             "id": "bf0305"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -4536,7 +4536,7 @@
             "id": "bf0306"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4554,7 +4554,7 @@
             "id": "bf0307"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -4572,7 +4572,7 @@
             "id": "bf0308"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -4618,7 +4618,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4636,7 +4636,7 @@
             "id": "bf0313"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4654,7 +4654,7 @@
             "id": "bf0314"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4672,7 +4672,7 @@
             "id": "bf0315"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -4690,7 +4690,7 @@
             "id": "bf0316"
           },
           {
-            "name": "reverse fly",
+            "name": "Reverse Fly Machine",
             "sets": [
               {
                 "reps": 10,
@@ -4708,7 +4708,7 @@
             "id": "bf0317"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -4726,7 +4726,7 @@
             "id": "bf0318"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -4744,7 +4744,7 @@
             "id": "bf0319"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -4790,7 +4790,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4808,7 +4808,7 @@
             "id": "bf0324"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -4826,7 +4826,7 @@
             "id": "bf0325"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -4844,7 +4844,7 @@
             "id": "bf0326"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4862,7 +4862,7 @@
             "id": "bf0327"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -4880,7 +4880,7 @@
             "id": "bf0328"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -4898,7 +4898,7 @@
             "id": "bf0329"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -4916,7 +4916,7 @@
             "id": "bf0330"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -4934,7 +4934,7 @@
             "id": "bf0331"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -4980,7 +4980,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -4998,7 +4998,7 @@
             "id": "bf0336"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -5016,7 +5016,7 @@
             "id": "bf0337"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -5034,7 +5034,7 @@
             "id": "bf0338"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5052,7 +5052,7 @@
             "id": "bf0339"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -5070,7 +5070,7 @@
             "id": "bf0340"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 10,
@@ -5088,7 +5088,7 @@
             "id": "bf0341"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5112,7 +5112,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -5130,7 +5130,7 @@
             "id": "bf0345"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -5148,7 +5148,7 @@
             "id": "bf0346"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -5166,7 +5166,7 @@
             "id": "bf0347"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -5184,7 +5184,7 @@
             "id": "bf0348"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -5202,7 +5202,7 @@
             "id": "bf0349"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -5220,7 +5220,7 @@
             "id": "bf0350"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 20,
@@ -5238,7 +5238,7 @@
             "id": "bf0351"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -5284,7 +5284,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -5302,7 +5302,7 @@
             "id": "bf0356"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -5320,7 +5320,7 @@
             "id": "bf0357"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -5338,7 +5338,7 @@
             "id": "bf0358"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5356,7 +5356,7 @@
             "id": "bf0359"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -5374,7 +5374,7 @@
             "id": "bf0360"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -5398,7 +5398,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -5416,7 +5416,7 @@
             "id": "bf0364"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -5434,7 +5434,7 @@
             "id": "bf0365"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -5452,7 +5452,7 @@
             "id": "bf0366"
           },
           {
-            "name": "single arm db curl",
+            "name": "Single Arm DB Curl",
             "sets": [
               {
                 "reps": 10,
@@ -5470,7 +5470,7 @@
             "id": "bf0367"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -5488,7 +5488,7 @@
             "id": "bf0368"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -5516,7 +5516,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -5534,7 +5534,7 @@
             "id": "bf0372"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -5552,7 +5552,7 @@
             "id": "bf0373"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5570,7 +5570,7 @@
             "id": "bf0374"
           },
           {
-            "name": "db front raises",
+            "name": "DB Front Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5588,7 +5588,7 @@
             "id": "bf0375"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -5606,7 +5606,7 @@
             "id": "bf0376"
           },
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 10,
@@ -5630,7 +5630,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -5648,7 +5648,7 @@
             "id": "bf0380"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 10,
@@ -5666,7 +5666,7 @@
             "id": "bf0381"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -5684,7 +5684,7 @@
             "id": "bf0382"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -5702,7 +5702,7 @@
             "id": "bf0383"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -5720,7 +5720,7 @@
             "id": "bf0384"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -5738,7 +5738,7 @@
             "id": "bf0385"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -5762,7 +5762,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -5780,7 +5780,7 @@
             "id": "bf0389"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -5798,7 +5798,7 @@
             "id": "bf0390"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -5816,7 +5816,7 @@
             "id": "bf0391"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -5834,7 +5834,7 @@
             "id": "bf0392"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -5852,7 +5852,7 @@
             "id": "bf0393"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -5870,7 +5870,7 @@
             "id": "bf0394"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -5888,7 +5888,7 @@
             "id": "bf0395"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -5934,7 +5934,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -5952,7 +5952,7 @@
             "id": "bf0400"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 8,
@@ -5970,7 +5970,7 @@
             "id": "bf0401"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 8,
@@ -5988,7 +5988,7 @@
             "id": "bf0402"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 8,
@@ -6006,7 +6006,7 @@
             "id": "bf0403"
           },
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 6,
@@ -6024,7 +6024,7 @@
             "id": "bf0404"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 8,
@@ -6042,7 +6042,7 @@
             "id": "bf0405"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 8,
@@ -6066,7 +6066,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6084,7 +6084,7 @@
             "id": "bf0409"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6102,7 +6102,7 @@
             "id": "bf0410"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6120,7 +6120,7 @@
             "id": "bf0411"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 8,
@@ -6138,7 +6138,7 @@
             "id": "bf0412"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 8,
@@ -6156,7 +6156,7 @@
             "id": "bf0413"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 8,
@@ -6180,7 +6180,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "BB back squat",
+            "name": "BB Back Squat",
             "sets": [
               {
                 "reps": 8,
@@ -6198,7 +6198,7 @@
             "id": "bf0417"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 8,
@@ -6216,7 +6216,7 @@
             "id": "bf0418"
           },
           {
-            "name": "Hip abduction",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 8,
@@ -6234,7 +6234,7 @@
             "id": "bf0419"
           },
           {
-            "name": "Hip adduction",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 8,
@@ -6252,7 +6252,7 @@
             "id": "bf0420"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 8,
@@ -6270,7 +6270,7 @@
             "id": "bf0421"
           },
           {
-            "name": "single arm db curl",
+            "name": "Single Arm DB Curl",
             "sets": [
               {
                 "reps": 8,
@@ -6288,7 +6288,7 @@
             "id": "bf0422"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -6306,7 +6306,7 @@
             "id": "bf0423"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -6352,7 +6352,7 @@
         "type": "Full Body",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -6370,7 +6370,7 @@
             "id": "bf0428"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 8,
@@ -6388,7 +6388,7 @@
             "id": "bf0429"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 8,
@@ -6406,7 +6406,7 @@
             "id": "bf0430"
           },
           {
-            "name": "reverse fly",
+            "name": "Reverse Fly Machine",
             "sets": [
               {
                 "reps": 8,
@@ -6424,7 +6424,7 @@
             "id": "bf0431"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6442,7 +6442,7 @@
             "id": "bf0432"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6460,7 +6460,7 @@
             "id": "bf0433"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 8,
@@ -6478,7 +6478,7 @@
             "id": "bf0434"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 8,
@@ -6506,7 +6506,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -6524,7 +6524,7 @@
             "id": "bf0438"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -6542,7 +6542,7 @@
             "id": "bf0439"
           },
           {
-            "name": "peck deck",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 8,
@@ -6560,7 +6560,7 @@
             "id": "bf0440"
           },
           {
-            "name": "reverse fly",
+            "name": "Reverse Fly Machine",
             "sets": [
               {
                 "reps": 8,
@@ -6578,7 +6578,7 @@
             "id": "bf0441"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 8,
@@ -6596,7 +6596,7 @@
             "id": "bf0442"
           },
           {
-            "name": "db front raises",
+            "name": "DB Front Raises",
             "sets": [
               {
                 "reps": 8,
@@ -6614,7 +6614,7 @@
             "id": "bf0443"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 8,
@@ -6632,7 +6632,7 @@
             "id": "bf0444"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 8,
@@ -6656,7 +6656,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6674,7 +6674,7 @@
             "id": "bf0448"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6692,7 +6692,7 @@
             "id": "bf0449"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 8,
@@ -6710,7 +6710,7 @@
             "id": "bf0450"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -6728,7 +6728,7 @@
             "id": "bf0451"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 8,
@@ -6746,7 +6746,7 @@
             "id": "bf0452"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 8,
@@ -6788,7 +6788,7 @@
             "id": "bf0456"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 8,
@@ -6824,7 +6824,7 @@
             "id": "bf0458"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 8,
@@ -6842,7 +6842,7 @@
             "id": "bf0459"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 8,
@@ -6860,7 +6860,7 @@
             "id": "bf0460"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -6878,7 +6878,7 @@
             "id": "bf0461"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -6896,7 +6896,7 @@
             "id": "bf0462"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -6942,7 +6942,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -6960,7 +6960,7 @@
             "id": "bf0467"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 8,
@@ -6978,7 +6978,7 @@
             "id": "bf0468"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -6996,7 +6996,7 @@
             "id": "bf0469"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 8,
@@ -7014,7 +7014,7 @@
             "id": "bf0470"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 8,
@@ -7032,7 +7032,7 @@
             "id": "bf0471"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 8,
@@ -7056,7 +7056,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 8,
@@ -7074,7 +7074,7 @@
             "id": "bf0475"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 8,
@@ -7092,7 +7092,7 @@
             "id": "bf0476"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 8,
@@ -7110,7 +7110,7 @@
             "id": "bf0477"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -7128,7 +7128,7 @@
             "id": "bf0478"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -7146,7 +7146,7 @@
             "id": "bf0479"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -7164,7 +7164,7 @@
             "id": "bf0480"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 8,
@@ -7192,7 +7192,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -7210,7 +7210,7 @@
             "id": "bf0484"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 8,
@@ -7228,7 +7228,7 @@
             "id": "bf0485"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 8,
@@ -7246,7 +7246,7 @@
             "id": "bf0486"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 8,
@@ -7264,7 +7264,7 @@
             "id": "bf0487"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 8,
@@ -7282,7 +7282,7 @@
             "id": "bf0488"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 8,
@@ -7300,7 +7300,7 @@
             "id": "bf0489"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 8,
@@ -7324,7 +7324,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "single arm db curl",
+            "name": "Single Arm DB Curl",
             "sets": [
               {
                 "reps": 8,
@@ -7342,7 +7342,7 @@
             "id": "bf0493"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 8,
@@ -7360,7 +7360,7 @@
             "id": "bf0494"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -7378,7 +7378,7 @@
             "id": "bf0495"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -7396,7 +7396,7 @@
             "id": "bf0496"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 8,
@@ -7414,7 +7414,7 @@
             "id": "bf0497"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 8,
@@ -7456,7 +7456,7 @@
             "id": "bf0501"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 8,
@@ -7474,7 +7474,7 @@
             "id": "bf0502"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -7492,7 +7492,7 @@
             "id": "bf0503"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 8,
@@ -7510,7 +7510,7 @@
             "id": "bf0504"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 8,
@@ -7528,7 +7528,7 @@
             "id": "bf0505"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -7546,7 +7546,7 @@
             "id": "bf0506"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -7564,7 +7564,7 @@
             "id": "bf0507"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -7610,7 +7610,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 6,
@@ -7628,7 +7628,7 @@
             "id": "bf0512"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 6,
@@ -7646,7 +7646,7 @@
             "id": "bf0513"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 6,
@@ -7664,7 +7664,7 @@
             "id": "bf0514"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 6,
@@ -7682,7 +7682,7 @@
             "id": "bf0515"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 6,
@@ -7700,7 +7700,7 @@
             "id": "bf0516"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -7718,7 +7718,7 @@
             "id": "bf0517"
           },
           {
-            "name": "reverse lunges",
+            "name": "Reverse Lunges",
             "sets": [
               {
                 "reps": 6,
@@ -7742,7 +7742,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 6,
@@ -7760,7 +7760,7 @@
             "id": "bf0521"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 6,
@@ -7778,7 +7778,7 @@
             "id": "bf0522"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 6,
@@ -7796,7 +7796,7 @@
             "id": "bf0523"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 6,
@@ -7814,7 +7814,7 @@
             "id": "bf0524"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -7832,7 +7832,7 @@
             "id": "bf0525"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 6,
@@ -7850,7 +7850,7 @@
             "id": "bf0526"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 6,
@@ -7874,7 +7874,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 6,
@@ -7892,7 +7892,7 @@
             "id": "bf0530"
           },
           {
-            "name": "Smith squat",
+            "name": "Smith Squat",
             "sets": [
               {
                 "reps": 6,
@@ -7910,7 +7910,7 @@
             "id": "bf0531"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 6,
@@ -7928,7 +7928,7 @@
             "id": "bf0532"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 6,
@@ -7946,7 +7946,7 @@
             "id": "bf0533"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 6,
@@ -7964,7 +7964,7 @@
             "id": "bf0534"
           },
           {
-            "name": "Smith calf raises",
+            "name": "Smith Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -7992,7 +7992,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 6,
@@ -8010,7 +8010,7 @@
             "id": "bf0538"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 6,
@@ -8028,7 +8028,7 @@
             "id": "bf0539"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 6,
@@ -8046,7 +8046,7 @@
             "id": "bf0540"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 6,
@@ -8064,7 +8064,7 @@
             "id": "bf0541"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 6,
@@ -8082,7 +8082,7 @@
             "id": "bf0542"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -8106,7 +8106,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 6,
@@ -8124,7 +8124,7 @@
             "id": "bf0546"
           },
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 6,
@@ -8142,7 +8142,7 @@
             "id": "bf0547"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 6,
@@ -8160,7 +8160,7 @@
             "id": "bf0548"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 8,
@@ -8178,7 +8178,7 @@
             "id": "bf0549"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -8196,7 +8196,7 @@
             "id": "bf0550"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 6,
@@ -8214,7 +8214,7 @@
             "id": "bf0551"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 6,
@@ -8232,7 +8232,7 @@
             "id": "bf0552"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -8250,7 +8250,7 @@
             "id": "bf0553"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -8296,7 +8296,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -8314,7 +8314,7 @@
             "id": "bf0558"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -8332,7 +8332,7 @@
             "id": "bf0559"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -8350,7 +8350,7 @@
             "id": "bf0560"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -8368,7 +8368,7 @@
             "id": "bf0561"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -8386,7 +8386,7 @@
             "id": "bf0562"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -8410,7 +8410,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 8,
@@ -8428,7 +8428,7 @@
             "id": "bf0566"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -8446,7 +8446,7 @@
             "id": "bf0567"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -8464,7 +8464,7 @@
             "id": "bf0568"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -8482,7 +8482,7 @@
             "id": "bf0569"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -8500,7 +8500,7 @@
             "id": "bf0570"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -8518,7 +8518,7 @@
             "id": "bf0571"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -8560,7 +8560,7 @@
             "id": "bf0575"
           },
           {
-            "name": "Smith squat",
+            "name": "Smith Squat",
             "sets": [
               {
                 "reps": 8,
@@ -8578,7 +8578,7 @@
             "id": "bf0576"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -8596,7 +8596,7 @@
             "id": "bf0577"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -8614,7 +8614,7 @@
             "id": "bf0578"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -8632,7 +8632,7 @@
             "id": "bf0579"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -8650,7 +8650,7 @@
             "id": "bf0580"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -8678,7 +8678,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -8696,7 +8696,7 @@
             "id": "bf0607"
           },
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -8714,7 +8714,7 @@
             "id": "bf0608"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -8732,7 +8732,7 @@
             "id": "bf0609"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -8750,7 +8750,7 @@
             "id": "bf0610"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -8768,7 +8768,7 @@
             "id": "bf0611"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -8792,7 +8792,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -8810,7 +8810,7 @@
             "id": "bf0615"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -8828,7 +8828,7 @@
             "id": "bf0616"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 10,
@@ -8846,7 +8846,7 @@
             "id": "bf0617"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -8864,7 +8864,7 @@
             "id": "bf0618"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -8882,7 +8882,7 @@
             "id": "bf0619"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -8910,7 +8910,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -8928,7 +8928,7 @@
             "id": "bf0584"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -8946,7 +8946,7 @@
             "id": "bf0585"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 8,
@@ -8964,7 +8964,7 @@
             "id": "bf0586"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -8982,7 +8982,7 @@
             "id": "bf0587"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -9006,7 +9006,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9024,7 +9024,7 @@
             "id": "bf0591"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9042,7 +9042,7 @@
             "id": "bf0592"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -9060,7 +9060,7 @@
             "id": "bf0593"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -9078,7 +9078,7 @@
             "id": "bf0594"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -9096,7 +9096,7 @@
             "id": "bf0595"
           },
           {
-            "name": "seated cable row wide grip",
+            "name": "Seated Cable Row (Wide Grip)",
             "sets": [
               {
                 "reps": 10,
@@ -9120,7 +9120,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 10,
@@ -9138,7 +9138,7 @@
             "id": "bf0599"
           },
           {
-            "name": "Smith squat",
+            "name": "Smith Squat",
             "sets": [
               {
                 "reps": 10,
@@ -9156,7 +9156,7 @@
             "id": "bf0600"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -9174,7 +9174,7 @@
             "id": "bf0601"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -9192,7 +9192,7 @@
             "id": "bf0602"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -9210,7 +9210,7 @@
             "id": "bf0603"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -9238,7 +9238,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -9256,7 +9256,7 @@
             "id": "bf0623"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 10,
@@ -9274,7 +9274,7 @@
             "id": "bf0624"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -9292,7 +9292,7 @@
             "id": "bf0625"
           },
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -9310,7 +9310,7 @@
             "id": "bf0626"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -9328,7 +9328,7 @@
             "id": "bf0627"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -9352,7 +9352,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9370,7 +9370,7 @@
             "id": "bf0631"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9388,7 +9388,7 @@
             "id": "bf0632"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9406,7 +9406,7 @@
             "id": "bf0633"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -9424,7 +9424,7 @@
             "id": "bf0634"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 10,
@@ -9442,7 +9442,7 @@
             "id": "bf0635"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -9460,7 +9460,7 @@
             "id": "bf0636"
           },
           {
-            "name": "seated cable row wide grip",
+            "name": "Seated Cable Row (Wide Grip)",
             "sets": [
               {
                 "reps": 10,
@@ -9502,7 +9502,7 @@
             "id": "bf0640"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -9520,7 +9520,7 @@
             "id": "bf0641"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -9538,7 +9538,7 @@
             "id": "bf0642"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -9556,7 +9556,7 @@
             "id": "bf0643"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -9574,7 +9574,7 @@
             "id": "bf0644"
           },
           {
-            "name": "Calf raises",
+            "name": "Calf Raises",
             "sets": [
               {
                 "reps": 25,
@@ -9602,7 +9602,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "Incline BB press",
+            "name": "Incline BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -9620,7 +9620,7 @@
             "id": "bf0648"
           },
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -9638,7 +9638,7 @@
             "id": "bf0649"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -9656,7 +9656,7 @@
             "id": "bf0650"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -9674,7 +9674,7 @@
             "id": "bf0651"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 8,
@@ -9692,7 +9692,7 @@
             "id": "bf0652"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -9710,7 +9710,7 @@
             "id": "bf0653"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 25,
@@ -9728,7 +9728,7 @@
             "id": "bf0654"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -9770,7 +9770,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9788,7 +9788,7 @@
             "id": "bf0659"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9806,7 +9806,7 @@
             "id": "bf0660"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -9824,7 +9824,7 @@
             "id": "bf0661"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 10,
@@ -9842,7 +9842,7 @@
             "id": "bf0662"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 10,
@@ -9860,7 +9860,7 @@
             "id": "bf0663"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -9884,7 +9884,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "Smith squat",
+            "name": "Smith Squat",
             "sets": [
               {
                 "reps": 10,
@@ -9902,7 +9902,7 @@
             "id": "bf0667"
           },
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 10,
@@ -9920,7 +9920,7 @@
             "id": "bf0668"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 11,
@@ -9938,7 +9938,7 @@
             "id": "bf0669"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 11,
@@ -9956,7 +9956,7 @@
             "id": "bf0670"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 11,
@@ -9974,7 +9974,7 @@
             "id": "bf0671"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -9998,7 +9998,7 @@
         "type": "Arms",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10016,7 +10016,7 @@
             "id": "bf0675"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -10034,7 +10034,7 @@
             "id": "bf0676"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 10,
@@ -10052,7 +10052,7 @@
             "id": "bf0677"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -10070,7 +10070,7 @@
             "id": "bf0678"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10088,7 +10088,7 @@
             "id": "bf0679"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -10116,7 +10116,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 11,
@@ -10134,7 +10134,7 @@
             "id": "bf0683"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -10152,7 +10152,7 @@
             "id": "bf0684"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -10170,7 +10170,7 @@
             "id": "bf0685"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10188,7 +10188,7 @@
             "id": "bf0686"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -10206,7 +10206,7 @@
             "id": "bf0687"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10224,7 +10224,7 @@
             "id": "bf0688"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -10242,7 +10242,7 @@
             "id": "bf0689"
           },
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 10,
@@ -10260,7 +10260,7 @@
             "id": "bf0690"
           },
           {
-            "name": "Leg ups",
+            "name": "Leg Ups",
             "sets": [
               {
                 "reps": 10,
@@ -10278,7 +10278,7 @@
             "id": "bf0691"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -10320,7 +10320,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 12,
@@ -10356,7 +10356,7 @@
             "id": "bf0697"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -10374,7 +10374,7 @@
             "id": "bf0698"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -10392,7 +10392,7 @@
             "id": "bf0699"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -10434,7 +10434,7 @@
             "id": "bf0703"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -10452,7 +10452,7 @@
             "id": "bf0704"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -10470,7 +10470,7 @@
             "id": "bf0705"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -10488,7 +10488,7 @@
             "id": "bf0706"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -10506,7 +10506,7 @@
             "id": "bf0707"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -10530,7 +10530,7 @@
         "type": "Arms",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -10548,7 +10548,7 @@
             "id": "bf0711"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -10566,7 +10566,7 @@
             "id": "bf0712"
           },
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 12,
@@ -10584,7 +10584,7 @@
             "id": "bf0713"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -10602,7 +10602,7 @@
             "id": "bf0714"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -10620,7 +10620,7 @@
             "id": "bf0715"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -10648,7 +10648,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10666,7 +10666,7 @@
             "id": "bf0719"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -10684,7 +10684,7 @@
             "id": "bf0720"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -10702,7 +10702,7 @@
             "id": "bf0721"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10720,7 +10720,7 @@
             "id": "bf0722"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -10738,7 +10738,7 @@
             "id": "bf0723"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 10,
@@ -10762,7 +10762,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 12,
@@ -10780,7 +10780,7 @@
             "id": "bf0727"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -10816,7 +10816,7 @@
             "id": "bf0729"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -10834,7 +10834,7 @@
             "id": "bf0730"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -10852,7 +10852,7 @@
             "id": "bf0731"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -10876,7 +10876,7 @@
         "type": "Core",
         "exercises": [
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 15,
@@ -10894,7 +10894,7 @@
             "id": "bf0735"
           },
           {
-            "name": "Leg ups",
+            "name": "Leg Ups",
             "sets": [
               {
                 "reps": 15,
@@ -10912,7 +10912,7 @@
             "id": "bf0736"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -10930,7 +10930,7 @@
             "id": "bf0737"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -11008,7 +11008,7 @@
             "id": "bf0743"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -11026,7 +11026,7 @@
             "id": "bf0744"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -11044,7 +11044,7 @@
             "id": "bf0745"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -11062,7 +11062,7 @@
             "id": "bf0746"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -11080,7 +11080,7 @@
             "id": "bf0747"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -11108,7 +11108,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -11126,7 +11126,7 @@
             "id": "bf0751"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -11144,7 +11144,7 @@
             "id": "bf0752"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -11162,7 +11162,7 @@
             "id": "bf0753"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -11180,7 +11180,7 @@
             "id": "bf0754"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 12,
@@ -11198,7 +11198,7 @@
             "id": "bf0755"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -11222,7 +11222,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 12,
@@ -11240,7 +11240,7 @@
             "id": "bf0759"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -11276,7 +11276,7 @@
             "id": "bf0761"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -11294,7 +11294,7 @@
             "id": "bf0762"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 12,
@@ -11312,7 +11312,7 @@
             "id": "bf0763"
           },
           {
-            "name": "seated cable row",
+            "name": "Seated Cable Row",
             "sets": [
               {
                 "reps": 10,
@@ -11336,7 +11336,7 @@
         "type": "Legs",
         "exercises": [
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -11354,7 +11354,7 @@
             "id": "bf0767"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -11390,7 +11390,7 @@
             "id": "bf0769"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -11408,7 +11408,7 @@
             "id": "bf0770"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -11426,7 +11426,7 @@
             "id": "bf0771"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -11454,7 +11454,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -11472,7 +11472,7 @@
             "id": "bf0775"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -11490,7 +11490,7 @@
             "id": "bf0776"
           },
           {
-            "name": "DB flys",
+            "name": "DB Chest Fly",
             "sets": [
               {
                 "reps": 10,
@@ -11508,7 +11508,7 @@
             "id": "bf0777"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -11526,7 +11526,7 @@
             "id": "bf0778"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 12,
@@ -11544,7 +11544,7 @@
             "id": "bf0779"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -11568,7 +11568,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 8,
@@ -11586,7 +11586,7 @@
             "id": "bf0783"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -11622,7 +11622,7 @@
             "id": "bf0785"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 12,
@@ -11640,7 +11640,7 @@
             "id": "bf0786"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -11658,7 +11658,7 @@
             "id": "bf0787"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -11700,7 +11700,7 @@
             "id": "bf0791"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -11718,7 +11718,7 @@
             "id": "bf0792"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -11736,7 +11736,7 @@
             "id": "bf0793"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -11754,7 +11754,7 @@
             "id": "bf0794"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -11772,7 +11772,7 @@
             "id": "bf0795"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -11796,7 +11796,7 @@
         "type": "Arms",
         "exercises": [
           {
-            "name": "DB bench press",
+            "name": "DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -11814,7 +11814,7 @@
             "id": "bf0799"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 10,
@@ -11832,7 +11832,7 @@
             "id": "bf0800"
           },
           {
-            "name": "hammer curls",
+            "name": "Hammer Curls",
             "sets": [
               {
                 "reps": 10,
@@ -11850,7 +11850,7 @@
             "id": "bf0801"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -11878,7 +11878,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -11896,7 +11896,7 @@
             "id": "bf0805"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -11914,7 +11914,7 @@
             "id": "bf0806"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -11932,7 +11932,7 @@
             "id": "bf0807"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -11950,7 +11950,7 @@
             "id": "bf0808"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 10,
@@ -11968,7 +11968,7 @@
             "id": "bf0809"
           },
           {
-            "name": "db lateral raises",
+            "name": "DB Lateral Raises",
             "sets": [
               {
                 "reps": 12,
@@ -11992,7 +11992,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -12010,7 +12010,7 @@
             "id": "bf0813"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12046,7 +12046,7 @@
             "id": "bf0815"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -12064,7 +12064,7 @@
             "id": "bf0816"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 12,
@@ -12082,7 +12082,7 @@
             "id": "bf0817"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -12124,7 +12124,7 @@
             "id": "bf0821"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -12142,7 +12142,7 @@
             "id": "bf0822"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -12160,7 +12160,7 @@
             "id": "bf0823"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -12178,7 +12178,7 @@
             "id": "bf0824"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 12,
@@ -12196,7 +12196,7 @@
             "id": "bf0825"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -12220,7 +12220,7 @@
         "type": "Arms",
         "exercises": [
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 12,
@@ -12238,7 +12238,7 @@
             "id": "bf0829"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 10,
@@ -12256,7 +12256,7 @@
             "id": "bf0830"
           },
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12274,7 +12274,7 @@
             "id": "bf0831"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 10,
@@ -12292,7 +12292,7 @@
             "id": "bf0832"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -12310,7 +12310,7 @@
             "id": "bf0833"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -12338,7 +12338,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -12356,7 +12356,7 @@
             "id": "bf0837"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 8,
@@ -12374,7 +12374,7 @@
             "id": "bf0838"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 10,
@@ -12392,7 +12392,7 @@
             "id": "bf0839"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 10,
@@ -12410,7 +12410,7 @@
             "id": "bf0840"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -12428,7 +12428,7 @@
             "id": "bf0841"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 12,
@@ -12452,7 +12452,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12470,7 +12470,7 @@
             "id": "bf0845"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12506,7 +12506,7 @@
             "id": "bf0847"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -12524,7 +12524,7 @@
             "id": "bf0848"
           },
           {
-            "name": "db standing rows",
+            "name": "DB Upright Row",
             "sets": [
               {
                 "reps": 10,
@@ -12548,7 +12548,7 @@
         "type": "Core",
         "exercises": [
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 15,
@@ -12566,7 +12566,7 @@
             "id": "bf0852"
           },
           {
-            "name": "Leg ups",
+            "name": "Leg Ups",
             "sets": [
               {
                 "reps": 15,
@@ -12584,7 +12584,7 @@
             "id": "bf0853"
           },
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -12602,7 +12602,7 @@
             "id": "bf0854"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -12662,7 +12662,7 @@
             "id": "bf0859"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -12680,7 +12680,7 @@
             "id": "bf0860"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -12698,7 +12698,7 @@
             "id": "bf0861"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -12716,7 +12716,7 @@
             "id": "bf0862"
           },
           {
-            "name": "db goblet squat",
+            "name": "DB Goblet Squat",
             "sets": [
               {
                 "reps": 10,
@@ -12734,7 +12734,7 @@
             "id": "bf0863"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -12762,7 +12762,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -12780,7 +12780,7 @@
             "id": "bf0867"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -12798,7 +12798,7 @@
             "id": "bf0868"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 8,
@@ -12816,7 +12816,7 @@
             "id": "bf0869"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -12834,7 +12834,7 @@
             "id": "bf0870"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -12858,7 +12858,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12876,7 +12876,7 @@
             "id": "bf0874"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -12912,7 +12912,7 @@
             "id": "bf0876"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 10,
@@ -12930,7 +12930,7 @@
             "id": "bf0877"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -12948,7 +12948,7 @@
             "id": "bf0878"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -12972,7 +12972,7 @@
         "type": "Core",
         "exercises": [
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -12990,7 +12990,7 @@
             "id": "bf0882"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -13026,7 +13026,7 @@
             "id": "bf0884"
           },
           {
-            "name": "planks",
+            "name": "Planks",
             "sets": [
               {
                 "reps": 60,
@@ -13044,7 +13044,7 @@
             "id": "bf0885"
           },
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 20,
@@ -13086,7 +13086,7 @@
             "id": "bf0889"
           },
           {
-            "name": "RDL",
+            "name": "BB RDL",
             "sets": [
               {
                 "reps": 10,
@@ -13104,7 +13104,7 @@
             "id": "bf0890"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 10,
@@ -13122,7 +13122,7 @@
             "id": "bf0891"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 12,
@@ -13140,7 +13140,7 @@
             "id": "bf0892"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 12,
@@ -13158,7 +13158,7 @@
             "id": "bf0893"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 10,
@@ -13186,7 +13186,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -13204,7 +13204,7 @@
             "id": "bf0897"
           },
           {
-            "name": "incline db press",
+            "name": "Incline DB Bench Press",
             "sets": [
               {
                 "reps": 10,
@@ -13222,7 +13222,7 @@
             "id": "bf0898"
           },
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13240,7 +13240,7 @@
             "id": "bf0899"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -13258,7 +13258,7 @@
             "id": "bf0900"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13276,7 +13276,7 @@
             "id": "bf0901"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -13300,7 +13300,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 12,
@@ -13318,7 +13318,7 @@
             "id": "bf0905"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 12,
@@ -13354,7 +13354,7 @@
             "id": "bf0907"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 12,
@@ -13372,7 +13372,7 @@
             "id": "bf0908"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -13390,7 +13390,7 @@
             "id": "bf0909"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 12,
@@ -13414,7 +13414,7 @@
         "type": "Core",
         "exercises": [
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -13432,7 +13432,7 @@
             "id": "bf0913"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -13468,7 +13468,7 @@
             "id": "bf0915"
           },
           {
-            "name": "planks",
+            "name": "Planks",
             "sets": [
               {
                 "reps": 60,
@@ -13486,7 +13486,7 @@
             "id": "bf0916"
           },
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 20,
@@ -13528,7 +13528,7 @@
             "id": "bf0920"
           },
           {
-            "name": "leg extensions",
+            "name": "Leg Extensions",
             "sets": [
               {
                 "reps": 12,
@@ -13546,7 +13546,7 @@
             "id": "bf0921"
           },
           {
-            "name": "Hip abduction (out)",
+            "name": "Hip Abduction",
             "sets": [
               {
                 "reps": 10,
@@ -13564,7 +13564,7 @@
             "id": "bf0922"
           },
           {
-            "name": "Hip adduction (in)",
+            "name": "Hip Adduction",
             "sets": [
               {
                 "reps": 10,
@@ -13582,7 +13582,7 @@
             "id": "bf0923"
           },
           {
-            "name": "Sitting calf raises",
+            "name": "Seated Calf Raises",
             "sets": [
               {
                 "reps": 15,
@@ -13606,7 +13606,7 @@
         "type": "Arms",
         "exercises": [
           {
-            "name": "BB bench press",
+            "name": "BB Bench Press",
             "sets": [
               {
                 "reps": 12,
@@ -13624,7 +13624,7 @@
             "id": "bf0927"
           },
           {
-            "name": "bb overhead press",
+            "name": "BB Overhead Press",
             "sets": [
               {
                 "reps": 8,
@@ -13642,7 +13642,7 @@
             "id": "bf0928"
           },
           {
-            "name": "ez bar preacher curls",
+            "name": "EZ Bar Preacher Curls",
             "sets": [
               {
                 "reps": 12,
@@ -13660,7 +13660,7 @@
             "id": "bf0929"
           },
           {
-            "name": "Lat raise machine",
+            "name": "Lat Raise Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13678,7 +13678,7 @@
             "id": "bf0930"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -13696,7 +13696,7 @@
             "id": "bf0931"
           },
           {
-            "name": "Straight bar push down",
+            "name": "Cable Straight Bar Pushdowns",
             "sets": [
               {
                 "reps": 12,
@@ -13724,7 +13724,7 @@
         "type": "Push",
         "exercises": [
           {
-            "name": "chest press machine",
+            "name": "Chest Press Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13742,7 +13742,7 @@
             "id": "bf0935"
           },
           {
-            "name": "db shoulder press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
                 "reps": 10,
@@ -13760,7 +13760,7 @@
             "id": "bf0936"
           },
           {
-            "name": "tricep extension machine",
+            "name": "Tricep Extension Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13778,7 +13778,7 @@
             "id": "bf0937"
           },
           {
-            "name": "peck deck machine",
+            "name": "Pec Deck",
             "sets": [
               {
                 "reps": 12,
@@ -13796,7 +13796,7 @@
             "id": "bf0938"
           },
           {
-            "name": "rear delt machine",
+            "name": "Rear Delt Machine",
             "sets": [
               {
                 "reps": 12,
@@ -13820,7 +13820,7 @@
         "type": "Pull",
         "exercises": [
           {
-            "name": "seated incline db curls",
+            "name": "Seated Incline DB Curls",
             "sets": [
               {
                 "reps": 12,
@@ -13838,7 +13838,7 @@
             "id": "bf0942"
           },
           {
-            "name": "cable curls",
+            "name": "Cable Curls",
             "sets": [
               {
                 "reps": 10,
@@ -13874,7 +13874,7 @@
             "id": "bf0944"
           },
           {
-            "name": "bent over BB row",
+            "name": "BB Bent Over Row",
             "sets": [
               {
                 "reps": 10,
@@ -13892,7 +13892,7 @@
             "id": "bf0945"
           },
           {
-            "name": "band pull aparts",
+            "name": "Band Pull Aparts",
             "sets": [
               {
                 "reps": 15,
@@ -13910,7 +13910,7 @@
             "id": "bf0946"
           },
           {
-            "name": "lat pulldowns",
+            "name": "Lat Pulldowns",
             "sets": [
               {
                 "reps": 10,
@@ -13934,7 +13934,7 @@
         "type": "Core",
         "exercises": [
           {
-            "name": "Decline exercise ball sit-ups",
+            "name": "Decline Ball Sit-Ups",
             "sets": [
               {
                 "reps": 30,
@@ -13952,7 +13952,7 @@
             "id": "bf0950"
           },
           {
-            "name": "Russian twist",
+            "name": "Russian Twists",
             "sets": [
               {
                 "reps": 50,
@@ -13988,7 +13988,7 @@
             "id": "bf0952"
           },
           {
-            "name": "planks",
+            "name": "Planks",
             "sets": [
               {
                 "reps": 60,
@@ -14006,7 +14006,7 @@
             "id": "bf0953"
           },
           {
-            "name": "Knee ups",
+            "name": "Knee Ups",
             "sets": [
               {
                 "reps": 20,

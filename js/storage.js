@@ -148,7 +148,7 @@ const Storage = {
 
   // Load backfill data on first visit
   async loadBackfill() {
-    const BACKFILL_KEY = 'workout_tracker_backfilled_v3';
+    const BACKFILL_KEY = 'workout_tracker_backfilled_v4';
     if (localStorage.getItem(BACKFILL_KEY)) return false;
     try {
       const res = await fetch('backfill_data.json');

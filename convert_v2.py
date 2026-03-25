@@ -161,6 +161,122 @@ def get_equipment_type(exercise_name):
     return 'machine'
 
 
+# Canonical exercise name mapping — normalize all variants
+NAME_MAP = {
+    # Barbell
+    "bb bench": "BB Bench Press",
+    "bb bench press": "BB Bench Press",
+    "incline bb press": "Incline BB Bench Press",
+    "bb overhead press": "BB Overhead Press",
+    "bb back squat": "BB Back Squat",
+    "back squat": "BB Back Squat",
+    "bb squat": "BB Back Squat",
+    "bb deadlift": "BB Deadlift",
+    "rdl": "BB RDL",
+    "bb row": "BB Bent Over Row",
+    "barbell row": "BB Bent Over Row",
+    "bent over bb row": "BB Bent Over Row",
+
+    # Dumbbell
+    "db bench": "DB Bench Press",
+    "db bench press": "DB Bench Press",
+    "incline db bench": "Incline DB Bench Press",
+    "incline db press": "Incline DB Bench Press",
+    "db flys": "DB Chest Fly",
+    "db chest fly": "DB Chest Fly",
+    "db shoulder press": "DB Shoulder Press",
+    "db lateral raises": "DB Lateral Raises",
+    "db lat raises": "DB Lateral Raises",
+    "lat raises": "DB Lateral Raises",
+    "lateral raises": "DB Lateral Raises",
+    "db front raises": "DB Front Raises",
+    "db standing rows": "DB Upright Row",
+    "db goblet squat": "DB Goblet Squat",
+    "goblet squat": "DB Goblet Squat",
+    "goblet squats": "DB Goblet Squat",
+    "db front squat": "DB Front Squat",
+    "db bulgarian split": "DB Bulgarian Split Squat",
+    "db lunges": "DB Lunges",
+    "db preacher curl": "DB Preacher Curl",
+    "hammer curls": "Hammer Curls",
+    "seated incline db curls": "Seated Incline DB Curls",
+    "incline db curl": "Seated Incline DB Curls",
+    "incline db curls": "Seated Incline DB Curls",
+    "single arm db curl": "Single Arm DB Curl",
+    "seated bicep curls": "Seated DB Curls",
+    "standing bicep curls": "Standing DB Curls",
+    "seated db hammer curls": "Seated DB Hammer Curls",
+    "kettleball swings": "Kettlebell Swings",
+
+    # EZ Bar
+    "ez bar preacher curls": "EZ Bar Preacher Curls",
+
+    # Cable / Machine
+    "cable curls": "Cable Curls",
+    "cable bicep curls": "Cable Curls",
+    "cable straight bar pushdowns": "Cable Straight Bar Pushdowns",
+    "straight bar pushdowns": "Cable Straight Bar Pushdowns",
+    "straight bar push down": "Cable Straight Bar Pushdowns",
+    "tricep rope extensions": "Tricep Rope Extensions",
+    "tricep extension machine": "Tricep Extension Machine",
+    "trciep extension machine": "Tricep Extension Machine",
+    "seated cable row": "Seated Cable Row",
+    "seated cable row wide grip": "Seated Cable Row (Wide Grip)",
+    "lat pulldowns": "Lat Pulldowns",
+    "lat pulldown": "Lat Pulldowns",
+    "upright cable rows": "Upright Cable Rows",
+    "chest press machine": "Chest Press Machine",
+    "machine chest press": "Chest Press Machine",
+    "machine incline chest press": "Incline Chest Press Machine",
+    "incline bench machine": "Incline Chest Press Machine",
+    "peck deck": "Pec Deck",
+    "peck deck machine": "Pec Deck",
+    "reverse fly": "Reverse Fly Machine",
+    "rear delt machine": "Rear Delt Machine",
+    "machine rear delt": "Rear Delt Machine",
+    "lat raise machine": "Lat Raise Machine",
+    "leg extensions": "Leg Extensions",
+    "leg press": "Leg Press",
+    "leg curls": "Leg Curls",
+    "hip abduction": "Hip Abduction",
+    "hip abduction (out)": "Hip Abduction",
+    "hip adduction": "Hip Adduction",
+    "hip adduction (in)": "Hip Adduction",
+    "smith calf raises": "Smith Calf Raises",
+    "standing calf raises": "Standing Calf Raises",
+    "calf raises": "Calf Raises",
+    "sitting calf raises": "Seated Calf Raises",
+    "smith squat": "Smith Squat",
+
+    # Lunges
+    "lunges": "Lunges",
+    "reverse lunges": "Reverse Lunges",
+    "forward lunges": "Forward Lunges",
+
+    # Bands
+    "band pull aparts": "Band Pull Aparts",
+    "resistance band curls": "Resistance Band Curls",
+
+    # Core
+    "decline exercise ball sit-ups": "Decline Ball Sit-Ups",
+    "decline bench sit-ups": "Decline Bench Sit-Ups",
+    "russian twist": "Russian Twists",
+    "penguins": "Penguins",
+    "planks": "Planks",
+    "knee ups": "Knee Ups",
+    "leg ups": "Leg Ups",
+
+    # Preacher curl (DB)
+    "preacher curl": "DB Preacher Curl",
+}
+
+
+def normalize_name(name):
+    """Normalize exercise name to canonical form."""
+    key = name.lower().strip()
+    return NAME_MAP.get(key, name)
+
+
 def adjust_weight(raw_weight, exercise_name):
     """Convert recorded weight to actual total weight moved."""
     if raw_weight == 0:
@@ -222,10 +338,11 @@ def parse_tab_data(lines):
             if any(s in lower_name for s in ['skipped', 'ran ', 'miles', 'hiked', 'albany',
                 'out of town', 'not much', 'shoulders difficult', 'hamstrings tight', 'cabin',
                 'push workout hotel']): continue
+            canonical = normalize_name(name)
             raw_weight = parse_weight(weight_str)
-            weight = adjust_weight(raw_weight, name)
+            weight = adjust_weight(raw_weight, canonical)
             sets = [{"reps": r, "weight": weight} for r in reps_list]
-            exercises.append({"name": name, "sets": sets})
+            exercises.append({"name": canonical, "sets": sets})
         if exercises:
             workout_groups.append((wtype, exercises))
 
@@ -239,9 +356,11 @@ def parse_tab_data(lines):
             weight_str = header_row[col_start + 2] if col_start + 2 < len(header_row) else ""
             reps_list = parse_sets_reps(sets_str)
             if reps_list:
+                canonical = normalize_name(name)
                 raw_weight = parse_weight(weight_str)
-                weight = adjust_weight(raw_weight, name)
+                weight = adjust_weight(raw_weight, canonical)
                 sets = [{"reps": r, "weight": weight} for r in reps_list]
+                name = canonical
                 for i, (gt, exs) in enumerate(workout_groups):
                     if gt == wtype:
                         workout_groups[i] = (gt, [{"name": name, "sets": sets}] + exs)
