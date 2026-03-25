@@ -91,6 +91,97 @@ def parse_weight(weight_str):
     return float(m.group(1)) if m else 0
 
 
+# Keywords that identify equipment type from exercise name
+
+# --- Equipment type detection ---
+# Single DB (one dumbbell, both hands or one hand): keep as-is
+SINGLE_DB_KEYWORDS = ['goblet', 'kettleball', 'kettle', 'single arm db']
+# Dumbbell (one in each hand): ×2
+DB_KEYWORDS = ['db ', 'db bench', 'dumbbell', 'dumbell', 'hammer curl', 'incline db',
+               'db shoulder', 'db lateral', 'db front', 'db chest', 'db fly', 'db flys',
+               'db standing row', 'db curl', 'db bulgarian',
+               'seated incline db', 'seated db', 'incline db curl']
+BB_KEYWORDS = ['bb ', 'bb bench', 'barbell', 'bb overhead', 'bb squat', 'bb back squat',
+               'bb deadlift', 'bb row', 'incline bb', 'bent over bb', 'rdl']
+EZ_KEYWORDS = ['ez bar']
+# Leg press: weight per side ×2
+LEG_PRESS_KEYWORDS = ['leg press']
+# Lunges with dumbbells: ×2
+LUNGE_KEYWORDS = ['lunge', 'reverse lunge', 'forward lunge']
+# Machine/cable/smith/band/bodyweight => no adjustment
+MACHINE_KEYWORDS = ['machine', 'cable', 'peck deck', 'lat pulldown', 'seated cable',
+                    'leg extension', 'hip abduction', 'hip adduction',
+                    'tricep extension machine', 'lat raise machine', 'reverse fly',
+                    'rear delt', 'smith', 'leg curl', 'calf raise', 'sitting calf',
+                    'straight bar push', 'band pull', 'pushdown', 'rope extension',
+                    'upright cable', 'chest press machine', 'decline exercise ball',
+                    'russian twist', 'penguin', 'plank', 'knee up', 'leg up',
+                    'peck deck machine', 'rear delt machine']
+
+
+def get_equipment_type(exercise_name):
+    """Determine equipment type from exercise name."""
+    name = exercise_name.lower().strip()
+
+    # Check single-DB first (goblet squat, kettlebell, single arm)
+    for kw in SINGLE_DB_KEYWORDS:
+        if kw in name:
+            return 'single_db'
+
+    # Machine/cable (most specific patterns)
+    for kw in MACHINE_KEYWORDS:
+        if kw in name:
+            return 'machine'
+
+    # Leg press: per side ×2
+    for kw in LEG_PRESS_KEYWORDS:
+        if kw in name:
+            return 'leg_press'
+
+    # Lunges (DB in each hand)
+    for kw in LUNGE_KEYWORDS:
+        if kw in name:
+            return 'dumbbell'
+
+    # EZ bar before BB
+    for kw in EZ_KEYWORDS:
+        if kw in name:
+            return 'ez_bar'
+
+    # Barbell
+    for kw in BB_KEYWORDS:
+        if kw in name:
+            return 'barbell'
+
+    # Dumbbell (pair)
+    for kw in DB_KEYWORDS:
+        if kw in name:
+            return 'dumbbell'
+
+    return 'machine'
+
+
+def adjust_weight(raw_weight, exercise_name):
+    """Convert recorded weight to actual total weight moved."""
+    if raw_weight == 0:
+        return 0
+
+    etype = get_equipment_type(exercise_name)
+
+    if etype == 'dumbbell':
+        return raw_weight * 2          # weight per hand × 2
+    elif etype == 'barbell':
+        return (raw_weight * 2) + 45   # weight per side × 2 + 45lb bar
+    elif etype == 'ez_bar':
+        return (raw_weight * 2) + 15   # weight per side × 2 + ~15lb EZ bar
+    elif etype == 'leg_press':
+        return raw_weight * 2          # weight per side × 2
+    elif etype == 'single_db':
+        return raw_weight              # one DB, as-is
+    else:
+        return raw_weight              # machine/cable/bodyweight: as-is
+
+
 def parse_csv_line(line):
     fields, current, in_quotes = [], "", False
     for ch in line:
@@ -131,7 +222,8 @@ def parse_tab_data(lines):
             if any(s in lower_name for s in ['skipped', 'ran ', 'miles', 'hiked', 'albany',
                 'out of town', 'not much', 'shoulders difficult', 'hamstrings tight', 'cabin',
                 'push workout hotel']): continue
-            weight = parse_weight(weight_str)
+            raw_weight = parse_weight(weight_str)
+            weight = adjust_weight(raw_weight, name)
             sets = [{"reps": r, "weight": weight} for r in reps_list]
             exercises.append({"name": name, "sets": sets})
         if exercises:
@@ -147,7 +239,8 @@ def parse_tab_data(lines):
             weight_str = header_row[col_start + 2] if col_start + 2 < len(header_row) else ""
             reps_list = parse_sets_reps(sets_str)
             if reps_list:
-                weight = parse_weight(weight_str)
+                raw_weight = parse_weight(weight_str)
+                weight = adjust_weight(raw_weight, name)
                 sets = [{"reps": r, "weight": weight} for r in reps_list]
                 for i, (gt, exs) in enumerate(workout_groups):
                     if gt == wtype:
