@@ -246,6 +246,12 @@ body {
   white-space: nowrap;
 }
 
+.exercise-actions {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
 .session-card-footer {
   padding: 8px 16px 12px;
   border-top: 1px solid var(--border);

@@ -33,7 +33,8 @@
   let currentWeek = getMonday(new Date());
   let progressChart = null;
   let modalExercises = []; // exercises being built in the session modal
-  let editingSessionId = null; // if editing an existing session
+  let editingSessionId = null; // if adding to an existing session
+  let editingExercise = null; // { sessionId, exerciseId } if editing a single exercise
 
   // === DOM Elements ===
   const tabBtns = document.querySelectorAll('.nav-btn');
@@ -113,6 +114,9 @@
               ${escapeHtml(session.type)}
             </span>
             <div class="actions">
+              <button class="icon-btn edit-session-type-btn" data-id="${session.id}" data-type="${escapeHtml(session.type)}" title="Edit session type">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              </button>
               <button class="icon-btn add-to-session-btn" data-id="${session.id}" title="Add exercise">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
               </button>
@@ -130,9 +134,14 @@
                     ${ex.sets.map((s, i) => `<span class="set-pill">${s.reps}×${s.weight}lbs</span>`).join('')}
                   </div>
                 </div>
-                <button class="icon-btn-sm delete-exercise-btn" data-session-id="${session.id}" data-exercise-id="${ex.id}" title="Remove">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
-                </button>
+                <div class="exercise-actions">
+                  <button class="icon-btn-sm edit-exercise-btn" data-session-id="${session.id}" data-exercise-id="${ex.id}" title="Edit" style="color:var(--primary);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                  </button>
+                  <button class="icon-btn-sm delete-exercise-btn" data-session-id="${session.id}" data-exercise-id="${ex.id}" title="Remove">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                  </button>
+                </div>
               </div>
             `).join('')}
           </div>
@@ -162,6 +171,22 @@
         Storage.deleteExercise(formatDate(currentWeek), btn.dataset.sessionId, btn.dataset.exerciseId);
         renderWeek();
         syncToSheets();
+      });
+    });
+
+    // Bind edit exercise buttons
+    weekSessions.querySelectorAll('.edit-exercise-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openEditExerciseModal(btn.dataset.sessionId, btn.dataset.exerciseId);
+      });
+    });
+
+    // Bind edit session type buttons
+    weekSessions.querySelectorAll('.edit-session-type-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openEditSessionTypeModal(btn.dataset.id, btn.dataset.type);
       });
     });
 
@@ -199,6 +224,57 @@
     resetExerciseForm();
     sessionModal.classList.remove('hidden');
     document.getElementById('save-session-btn').style.display = '';
+  }
+
+  // Edit a single exercise
+  function openEditExerciseModal(sessionId, exerciseId) {
+    const mondayStr = formatDate(currentWeek);
+    const week = Storage.getWeek(mondayStr);
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (!session) return;
+    const exercise = session.exercises.find(e => e.id === exerciseId);
+    if (!exercise) return;
+
+    editingExercise = { sessionId, exerciseId };
+    editingSessionId = null;
+    modalExercises = [];
+    sessionModalTitle.textContent = 'Edit Exercise';
+    sessionType.parentElement.classList.add('hidden');
+    customNameGroup.classList.add('hidden');
+    sessionExercisesList.innerHTML = '';
+    document.getElementById('save-session-btn').style.display = 'none';
+
+    // Pre-fill form
+    exerciseName.value = exercise.name;
+    setsContainer.innerHTML = '';
+    setCount = 0;
+    exercise.sets.forEach((s, i) => {
+      setCount = i + 1;
+      const row = createSetRow(setCount);
+      row.querySelector('.reps-input').value = s.reps;
+      row.querySelector('.weight-input').value = s.weight;
+      setsContainer.appendChild(row);
+    });
+    renumberSets();
+
+    // Change "Add Exercise" button to "Save Changes"
+    const addBtn = document.getElementById('add-exercise-btn');
+    addBtn.textContent = 'Save Changes';
+    addBtn._editMode = true;
+
+    sessionModal.classList.remove('hidden');
+    updateSuggestions();
+  }
+
+  // Edit session type
+  function openEditSessionTypeModal(sessionId, currentType) {
+    const types = ['Push', 'Pull', 'Legs', 'Arms', 'Core', 'Full Body', 'Cardio', 'Custom'];
+    const newType = prompt('Session type:\n' + types.join(', '), currentType);
+    if (newType && newType.trim() && newType.trim() !== currentType) {
+      Storage.updateSessionType(formatDate(currentWeek), sessionId, newType.trim());
+      renderWeek();
+      syncToSheets();
+    }
   }
 
   // Close modal
@@ -265,8 +341,9 @@
     setsContainer.lastElementChild.querySelector('.reps-input').focus();
   });
 
-  // === Add Exercise to Modal list ===
-  document.getElementById('add-exercise-btn').addEventListener('click', () => {
+  // === Add Exercise to Modal list (or save edit) ===
+  const addExerciseBtn = document.getElementById('add-exercise-btn');
+  addExerciseBtn.addEventListener('click', () => {
     const name = exerciseName.value.trim();
     if (!name) { showToast('Enter an exercise name', 'error'); exerciseName.focus(); return; }
 
@@ -280,6 +357,24 @@
 
     if (sets.length === 0) { showToast('Add at least one set with reps', 'error'); return; }
 
+    // If editing an existing exercise, save directly
+    if (editingExercise) {
+      Storage.updateExercise(
+        formatDate(currentWeek),
+        editingExercise.sessionId,
+        editingExercise.exerciseId,
+        { name, sets }
+      );
+      editingExercise = null;
+      addExerciseBtn.textContent = 'Add Exercise';
+      addExerciseBtn._editMode = false;
+      sessionModal.classList.add('hidden');
+      renderWeek();
+      syncToSheets();
+      showToast('Exercise updated!', 'success');
+      return;
+    }
+
     modalExercises.push({ name, sets });
     renderModalExercises();
     resetExerciseForm();
@@ -291,6 +386,10 @@
     setsContainer.innerHTML = '';
     setCount = 0;
     setsContainer.appendChild(createSetRow(1));
+    // Reset edit mode
+    editingExercise = null;
+    addExerciseBtn.textContent = 'Add Exercise';
+    addExerciseBtn._editMode = false;
     setCount = 1;
     updateSuggestions();
   }

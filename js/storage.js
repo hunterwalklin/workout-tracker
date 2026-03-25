@@ -64,6 +64,30 @@ const Storage = {
     this.saveWeek(mondayStr, week);
   },
 
+  // Update an exercise in a session
+  updateExercise(mondayStr, sessionId, exerciseId, updatedExercise) {
+    const week = this.getWeek(mondayStr);
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (session) {
+      const idx = session.exercises.findIndex(e => e.id === exerciseId);
+      if (idx !== -1) {
+        updatedExercise.id = exerciseId;
+        session.exercises[idx] = updatedExercise;
+        this.saveWeek(mondayStr, week);
+      }
+    }
+  },
+
+  // Update session type
+  updateSessionType(mondayStr, sessionId, newType) {
+    const week = this.getWeek(mondayStr);
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (session) {
+      session.type = newType;
+      this.saveWeek(mondayStr, week);
+    }
+  },
+
   // Add exercise to existing session
   addExerciseToSession(mondayStr, sessionId, exercise) {
     const week = this.getWeek(mondayStr);
