@@ -1,91 +1,117 @@
-// storage.js — localStorage-based data layer with Google Sheets sync
+// storage.js — localStorage-based data layer
+// Data format: { "2025-05-05": { sessions: [{ type, exercises: [{ id, name, sets }] }] } }
+// Key is the Monday of the week (YYYY-MM-DD)
 
 const Storage = {
-  WORKOUTS_KEY: 'workout_tracker_data',
+  WORKOUTS_KEY: 'workout_tracker_data_v2',
   SETTINGS_KEY: 'workout_tracker_settings',
 
-  // Get all workouts
   getAll() {
     const raw = localStorage.getItem(this.WORKOUTS_KEY);
     return raw ? JSON.parse(raw) : {};
   },
 
-  // Save all workouts
   saveAll(data) {
     localStorage.setItem(this.WORKOUTS_KEY, JSON.stringify(data));
   },
 
-  // Get workouts for a specific date (YYYY-MM-DD)
-  getByDate(date) {
+  // Get week data by Monday date string
+  getWeek(mondayStr) {
     const all = this.getAll();
-    return all[date] || [];
+    return all[mondayStr] || { sessions: [] };
   },
 
-  // Save exercises for a specific date
-  saveForDate(date, exercises) {
+  saveWeek(mondayStr, weekData) {
     const all = this.getAll();
-    if (exercises.length === 0) {
-      delete all[date];
+    if (weekData.sessions.length === 0) {
+      delete all[mondayStr];
     } else {
-      all[date] = exercises;
+      all[mondayStr] = weekData;
     }
     this.saveAll(all);
   },
 
-  // Add an exercise to a date
-  addExercise(date, exercise) {
-    const exercises = this.getByDate(date);
-    exercise.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
-    exercises.push(exercise);
-    this.saveForDate(date, exercises);
+  // Add a full session to a week
+  addSession(mondayStr, session) {
+    const week = this.getWeek(mondayStr);
+    session.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+    // Ensure each exercise has an id
+    for (const ex of session.exercises) {
+      if (!ex.id) ex.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+    }
+    week.sessions.push(session);
+    this.saveWeek(mondayStr, week);
+    return session;
+  },
+
+  // Delete a session by id
+  deleteSession(mondayStr, sessionId) {
+    const week = this.getWeek(mondayStr);
+    week.sessions = week.sessions.filter(s => s.id !== sessionId);
+    this.saveWeek(mondayStr, week);
+  },
+
+  // Delete an exercise from a session
+  deleteExercise(mondayStr, sessionId, exerciseId) {
+    const week = this.getWeek(mondayStr);
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (session) {
+      session.exercises = session.exercises.filter(e => e.id !== exerciseId);
+      if (session.exercises.length === 0) {
+        week.sessions = week.sessions.filter(s => s.id !== sessionId);
+      }
+    }
+    this.saveWeek(mondayStr, week);
+  },
+
+  // Add exercise to existing session
+  addExerciseToSession(mondayStr, sessionId, exercise) {
+    const week = this.getWeek(mondayStr);
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (session) {
+      exercise.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+      session.exercises.push(exercise);
+      this.saveWeek(mondayStr, week);
+    }
     return exercise;
   },
 
-  // Delete an exercise by id from a date
-  deleteExercise(date, exerciseId) {
-    let exercises = this.getByDate(date);
-    exercises = exercises.filter(e => e.id !== exerciseId);
-    this.saveForDate(date, exercises);
-  },
-
-  // Get all unique exercise names
+  // Get all unique exercise names across all data
   getExerciseNames() {
     const all = this.getAll();
     const names = new Set();
-    for (const date in all) {
-      for (const ex of all[date]) {
-        names.add(ex.name);
+    for (const key in all) {
+      for (const session of (all[key].sessions || [])) {
+        for (const ex of session.exercises) {
+          names.add(ex.name);
+        }
       }
     }
     return Array.from(names).sort();
   },
 
-  // Get history for a specific exercise (for charts)
+  // Get exercise history for progress charts
   getExerciseHistory(exerciseName) {
     const all = this.getAll();
     const history = [];
-    const dates = Object.keys(all).sort();
-    for (const date of dates) {
-      const matches = all[date].filter(e => e.name.toLowerCase() === exerciseName.toLowerCase());
-      if (matches.length > 0) {
+    const weeks = Object.keys(all).sort();
+    for (const weekKey of weeks) {
+      for (const session of (all[weekKey].sessions || [])) {
+        const matches = session.exercises.filter(
+          e => e.name.toLowerCase() === exerciseName.toLowerCase()
+        );
         for (const match of matches) {
-          history.push({ date, sets: match.sets });
+          history.push({ date: weekKey, sets: match.sets });
         }
       }
     }
     return history;
   },
 
-  // Get dates that have workouts within a date range
-  getDatesWithData(startDate, endDate) {
+  // Get weeks that have data
+  getWeeksWithData() {
     const all = this.getAll();
-    const dates = new Set();
-    for (const date in all) {
-      if (date >= startDate && date <= endDate && all[date].length > 0) {
-        dates.add(date);
-      }
-    }
-    return dates;
+    return new Set(Object.keys(all));
   },
 
   // Settings
@@ -98,25 +124,21 @@ const Storage = {
     localStorage.setItem(this.SETTINGS_KEY, JSON.stringify(settings));
   },
 
-  // Export all data as JSON
   exportData() {
     return JSON.stringify(this.getAll(), null, 2);
   },
 
-  // Import data from JSON
   importData(jsonStr) {
     const data = JSON.parse(jsonStr);
-    // Merge with existing data
     const existing = this.getAll();
-    for (const date in data) {
-      if (!existing[date]) {
-        existing[date] = data[date];
+    for (const key in data) {
+      if (!existing[key]) {
+        existing[key] = data[key];
       } else {
-        // Merge exercises, avoiding duplicates by id
-        const existingIds = new Set(existing[date].map(e => e.id));
-        for (const ex of data[date]) {
-          if (!existingIds.has(ex.id)) {
-            existing[date].push(ex);
+        const existingIds = new Set(existing[key].sessions.map(s => s.id));
+        for (const session of (data[key].sessions || [])) {
+          if (!existingIds.has(session.id)) {
+            existing[key].sessions.push(session);
           }
         }
       }
@@ -126,7 +148,7 @@ const Storage = {
 
   // Load backfill data on first visit
   async loadBackfill() {
-    const BACKFILL_KEY = 'workout_tracker_backfilled';
+    const BACKFILL_KEY = 'workout_tracker_backfilled_v2';
     if (localStorage.getItem(BACKFILL_KEY)) return false;
     try {
       const res = await fetch('backfill_data.json');

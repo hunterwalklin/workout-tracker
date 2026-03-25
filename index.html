@@ -24,12 +24,8 @@
     <!-- Navigation -->
     <nav class="bottom-nav">
       <button class="nav-btn active" data-tab="log">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
-        <span>Log</span>
-      </button>
-      <button class="nav-btn" data-tab="history">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        <span>History</span>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        <span>Week</span>
       </button>
       <button class="nav-btn" data-tab="progress">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
@@ -37,7 +33,7 @@
       </button>
     </nav>
 
-    <!-- Log Workout Tab -->
+    <!-- Week View Tab -->
     <main id="tab-log" class="tab-content active">
       <div class="week-selector">
         <button id="prev-week" class="icon-btn">
@@ -49,58 +45,81 @@
         </button>
       </div>
 
-      <!-- Day Selector -->
-      <div class="day-chips" id="day-chips"></div>
+      <!-- Week sessions rendered here -->
+      <div id="week-sessions" class="week-sessions"></div>
 
-      <!-- Add Exercise Form -->
-      <div class="card add-exercise-card">
-        <h3>Add Exercise</h3>
-        <div class="form-row">
+      <!-- Add session button -->
+      <button id="add-session-btn" class="btn-add-session">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        Add Workout Session
+      </button>
+    </main>
+
+    <!-- Add/Edit Session Modal -->
+    <div id="session-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content card">
+        <div class="modal-header">
+          <h3 id="session-modal-title">Add Workout Session</h3>
+          <button id="close-session-modal" class="icon-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="form-group" style="margin-bottom:12px;">
+          <label for="session-type">Session Type</label>
+          <select id="session-type">
+            <option value="Push">Push</option>
+            <option value="Pull">Pull</option>
+            <option value="Legs">Legs</option>
+            <option value="Arms">Arms</option>
+            <option value="Core">Core</option>
+            <option value="Full Body">Full Body</option>
+            <option value="Cardio">Cardio</option>
+            <option value="Custom">Custom</option>
+          </select>
+        </div>
+        <div class="form-group hidden" id="custom-name-group" style="margin-bottom:12px;">
+          <label for="custom-session-name">Custom Name</label>
+          <input type="text" id="custom-session-name" placeholder="e.g. Upper Body">
+        </div>
+
+        <h4 class="section-label">Exercises</h4>
+        <div id="session-exercises"></div>
+
+        <!-- Add exercise mini-form -->
+        <div class="add-exercise-inline">
           <div class="form-group full">
             <label for="exercise-name">Exercise</label>
             <input type="text" id="exercise-name" placeholder="e.g. Bench Press" list="exercise-suggestions" autocomplete="off">
             <datalist id="exercise-suggestions"></datalist>
           </div>
-        </div>
-        <div id="sets-container">
-          <div class="set-row" data-set="1">
-            <span class="set-label">Set 1</span>
-            <div class="form-group">
-              <label>Reps</label>
-              <input type="number" class="reps-input" placeholder="0" min="0" inputmode="numeric">
+          <div id="sets-container">
+            <div class="set-row" data-set="1">
+              <span class="set-label">Set 1</span>
+              <div class="form-group">
+                <label>Reps</label>
+                <input type="number" class="reps-input" placeholder="0" min="0" inputmode="numeric">
+              </div>
+              <div class="form-group">
+                <label>Weight (lbs)</label>
+                <input type="number" class="weight-input" placeholder="0" min="0" step="2.5" inputmode="decimal">
+              </div>
+              <button class="remove-set-btn icon-btn-sm" title="Remove set" style="visibility:hidden;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              </button>
             </div>
-            <div class="form-group">
-              <label>Weight (lbs)</label>
-              <input type="number" class="weight-input" placeholder="0" min="0" step="2.5" inputmode="decimal">
-            </div>
-            <button class="remove-set-btn icon-btn-sm" title="Remove set" style="visibility:hidden;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
-            </button>
+          </div>
+          <div class="form-actions">
+            <button id="add-set-btn" class="btn-secondary">+ Set</button>
+            <button id="add-exercise-btn" class="btn-primary">Add Exercise</button>
           </div>
         </div>
-        <div class="form-actions">
-          <button id="add-set-btn" class="btn-secondary">+ Add Set</button>
-          <button id="save-exercise-btn" class="btn-primary">Save Exercise</button>
+
+        <div class="form-actions" style="margin-top:16px;">
+          <button id="save-session-btn" class="btn-primary" style="flex:1;">Save Session</button>
         </div>
       </div>
-
-      <!-- Today's Exercises -->
-      <div id="todays-exercises" class="exercises-list"></div>
-    </main>
-
-    <!-- History Tab -->
-    <main id="tab-history" class="tab-content">
-      <div class="week-selector">
-        <button id="hist-prev-week" class="icon-btn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-        </button>
-        <h2 id="hist-week-label">Week of Mar 24, 2025</h2>
-        <button id="hist-next-week" class="icon-btn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-        </button>
-      </div>
-      <div id="history-content" class="history-grid"></div>
-    </main>
+    </div>
 
     <!-- Progress Tab -->
     <main id="tab-progress" class="tab-content">
