@@ -146,15 +146,27 @@ const Storage = {
     this.saveAll(existing);
   },
 
-  // Load backfill data on first visit
+  // Clean up old v1 data and stale backfill keys
+  cleanupLegacy() {
+    localStorage.removeItem('workout_tracker_data');
+    localStorage.removeItem('workout_tracker_backfilled');
+    localStorage.removeItem('workout_tracker_backfilled_v2');
+    localStorage.removeItem('workout_tracker_backfilled_v3');
+  },
+
+  // Load backfill data on first visit (or re-backfill on version bump)
   async loadBackfill() {
-    const BACKFILL_KEY = 'workout_tracker_backfilled_v4';
+    this.cleanupLegacy();
+    const BACKFILL_KEY = 'workout_tracker_backfilled_v5';
     if (localStorage.getItem(BACKFILL_KEY)) return false;
     try {
+      // Clear existing v2 data so we get a clean import
+      localStorage.removeItem(this.WORKOUTS_KEY);
+      localStorage.removeItem('workout_tracker_backfilled_v4');
       const res = await fetch('backfill_data.json');
       if (!res.ok) return false;
       const data = await res.json();
-      this.importData(JSON.stringify(data));
+      this.saveAll(data);
       localStorage.setItem(BACKFILL_KEY, '1');
       return true;
     } catch (e) {
