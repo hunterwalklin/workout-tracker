@@ -313,7 +313,7 @@ def adjust_weight(raw_weight, exercise_name):
     etype = get_equipment_type(exercise_name)
 
     if etype == 'dumbbell':
-        return raw_weight * 2          # weight per hand × 2
+        return raw_weight              # weight per dumbbell, as recorded (35s -> 35)
     elif etype == 'barbell':
         return (raw_weight * 2) + 45   # weight per side × 2 + 45lb bar
     elif etype == 'ez_bar':

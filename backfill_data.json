@@ -10,15 +10,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0002"
@@ -46,15 +46,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0004"
@@ -82,15 +82,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0006"
@@ -274,15 +274,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0020"
@@ -292,15 +292,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               }
             ],
             "id": "bf0021"
@@ -356,15 +356,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0026"
@@ -374,15 +374,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0027"
@@ -428,15 +428,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0030"
@@ -506,15 +506,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0036"
@@ -542,15 +542,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0038"
@@ -560,15 +560,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0039"
@@ -596,15 +596,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 8,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 8,
-                "weight": 20.0
+                "weight": 10.0
               }
             ],
             "id": "bf0041"
@@ -620,15 +620,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0044"
@@ -710,15 +710,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0049"
@@ -810,15 +810,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0056"
@@ -864,15 +864,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0059"
@@ -1014,15 +1014,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0069"
@@ -1056,15 +1056,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0073"
@@ -1092,15 +1092,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0075"
@@ -1128,15 +1128,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0077"
@@ -1182,15 +1182,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 15,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 15,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0080"
@@ -1210,15 +1210,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 15,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0083"
@@ -1246,15 +1246,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 15,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0085"
@@ -1264,15 +1264,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               },
               {
                 "reps": 15,
-                "weight": 20.0
+                "weight": 10.0
               }
             ],
             "id": "bf0086"
@@ -1468,15 +1468,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0099"
@@ -1492,15 +1492,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0102"
@@ -1546,15 +1546,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 15,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0105"
@@ -1582,15 +1582,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 15,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0107"
@@ -1682,15 +1682,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0114"
@@ -1718,15 +1718,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0116"
@@ -1736,15 +1736,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0117"
@@ -1832,15 +1832,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0124"
@@ -1928,15 +1928,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0131"
@@ -2064,15 +2064,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0140"
@@ -2178,15 +2178,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0148"
@@ -2256,15 +2256,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0154"
@@ -2292,15 +2292,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0156"
@@ -2328,15 +2328,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 12,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0158"
@@ -2346,15 +2346,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0159"
@@ -2482,15 +2482,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0168"
@@ -2500,15 +2500,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0169"
@@ -2632,15 +2632,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0178"
@@ -2704,15 +2704,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0182"
@@ -2722,15 +2722,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0183"
@@ -2764,15 +2764,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0187"
@@ -2828,15 +2828,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0192"
@@ -2900,15 +2900,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0196"
@@ -2924,15 +2924,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0199"
@@ -3060,15 +3060,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0208"
@@ -3114,15 +3114,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0211"
@@ -3132,15 +3132,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0212"
@@ -3192,15 +3192,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0217"
@@ -3246,15 +3246,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 12,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0220"
@@ -3310,15 +3310,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0225"
@@ -3442,15 +3442,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0234"
@@ -3514,15 +3514,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0238"
@@ -3578,15 +3578,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0243"
@@ -3650,15 +3650,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0247"
@@ -3692,15 +3692,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0251"
@@ -3764,15 +3764,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0255"
@@ -3810,15 +3810,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0259"
@@ -3828,15 +3828,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0260"
@@ -3864,15 +3864,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0262"
@@ -3978,15 +3978,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0270"
@@ -4032,15 +4032,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0273"
@@ -4050,15 +4050,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0274"
@@ -4132,15 +4132,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0280"
@@ -4186,15 +4186,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0283"
@@ -4250,15 +4250,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0288"
@@ -4268,15 +4268,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0289"
@@ -4286,15 +4286,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0290"
@@ -4322,15 +4322,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0292"
@@ -4368,15 +4368,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0296"
@@ -4386,15 +4386,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0297"
@@ -4450,15 +4450,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0302"
@@ -4504,15 +4504,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0305"
@@ -4622,15 +4622,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0313"
@@ -4640,15 +4640,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0314"
@@ -4658,15 +4658,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0315"
@@ -4794,15 +4794,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0324"
@@ -4812,15 +4812,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0325"
@@ -4830,15 +4830,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0326"
@@ -4848,15 +4848,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0327"
@@ -4884,15 +4884,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0329"
@@ -4984,15 +4984,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0336"
@@ -5002,15 +5002,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 10,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0337"
@@ -5020,15 +5020,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0338"
@@ -5038,15 +5038,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0339"
@@ -5074,15 +5074,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0341"
@@ -5116,15 +5116,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0345"
@@ -5170,15 +5170,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0348"
@@ -5306,15 +5306,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0357"
@@ -5342,15 +5342,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0359"
@@ -5402,15 +5402,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0364"
@@ -5520,15 +5520,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0372"
@@ -5538,15 +5538,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0373"
@@ -5556,15 +5556,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0374"
@@ -5574,15 +5574,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               },
               {
                 "reps": 10,
-                "weight": 30.0
+                "weight": 15.0
               }
             ],
             "id": "bf0375"
@@ -5634,15 +5634,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0380"
@@ -5652,15 +5652,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0381"
@@ -5706,15 +5706,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0384"
@@ -5766,15 +5766,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0389"
@@ -5938,15 +5938,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0400"
@@ -5956,15 +5956,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0401"
@@ -5974,15 +5974,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0402"
@@ -5992,15 +5992,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0403"
@@ -6070,15 +6070,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0409"
@@ -6142,15 +6142,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0413"
@@ -6160,15 +6160,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0414"
@@ -6356,15 +6356,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0428"
@@ -6374,15 +6374,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0429"
@@ -6528,15 +6528,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0439"
@@ -6582,15 +6582,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0442"
@@ -6600,15 +6600,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0443"
@@ -6660,15 +6660,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0448"
@@ -6696,15 +6696,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0450"
@@ -6964,15 +6964,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0468"
@@ -6982,15 +6982,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0469"
@@ -7000,15 +7000,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0470"
@@ -7036,15 +7036,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0472"
@@ -7060,15 +7060,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 8,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0475"
@@ -7096,15 +7096,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0477"
@@ -7114,15 +7114,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0478"
@@ -7196,15 +7196,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0484"
@@ -7214,15 +7214,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 8,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0485"
@@ -7250,15 +7250,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0487"
@@ -7268,15 +7268,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 8,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0488"
@@ -7364,15 +7364,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0495"
@@ -7614,15 +7614,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf0512"
@@ -7632,15 +7632,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0513"
@@ -7668,15 +7668,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0515"
@@ -7722,15 +7722,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0518"
@@ -7746,15 +7746,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0521"
@@ -7782,15 +7782,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0523"
@@ -7800,15 +7800,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 6,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 6,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0524"
@@ -7996,15 +7996,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 6,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf0538"
@@ -8014,15 +8014,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0539"
@@ -8050,15 +8050,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0541"
@@ -8128,15 +8128,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0547"
@@ -8146,15 +8146,15 @@
             "sets": [
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0548"
@@ -8164,15 +8164,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0549"
@@ -8318,15 +8318,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0559"
@@ -8336,15 +8336,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0560"
@@ -8354,15 +8354,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0561"
@@ -8414,15 +8414,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0566"
@@ -8468,15 +8468,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0569"
@@ -8682,15 +8682,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0607"
@@ -8718,15 +8718,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0609"
@@ -8832,15 +8832,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0617"
@@ -8850,15 +8850,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0618"
@@ -8914,15 +8914,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0584"
@@ -8932,15 +8932,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0585"
@@ -8968,15 +8968,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0587"
@@ -9010,15 +9010,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0591"
@@ -9046,15 +9046,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0593"
@@ -9332,15 +9332,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 6,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0628"
@@ -9392,15 +9392,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0633"
@@ -9624,15 +9624,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 6,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 9,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0649"
@@ -9678,15 +9678,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 6,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0652"
@@ -9774,15 +9774,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 9,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 7,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0659"
@@ -10038,15 +10038,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0677"
@@ -10138,15 +10138,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0684"
@@ -10342,15 +10342,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0697"
@@ -10396,15 +10396,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0700"
@@ -10534,15 +10534,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0711"
@@ -10570,15 +10570,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 10,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0713"
@@ -10724,15 +10724,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0723"
@@ -10766,15 +10766,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0727"
@@ -10802,15 +10802,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0729"
@@ -11112,15 +11112,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0751"
@@ -11184,15 +11184,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0755"
@@ -11226,15 +11226,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 30.0
               }
             ],
             "id": "bf0759"
@@ -11262,15 +11262,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0761"
@@ -11298,15 +11298,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0763"
@@ -11476,15 +11476,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0776"
@@ -11494,15 +11494,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               },
               {
                 "reps": 10,
-                "weight": 50.0
+                "weight": 25.0
               }
             ],
             "id": "bf0777"
@@ -11512,15 +11512,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0778"
@@ -11530,15 +11530,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0779"
@@ -11572,15 +11572,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 8,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0783"
@@ -11608,15 +11608,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 12,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0785"
@@ -11626,15 +11626,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0786"
@@ -11800,15 +11800,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0799"
@@ -11836,15 +11836,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0801"
@@ -11900,15 +11900,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0806"
@@ -11972,15 +11972,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               },
               {
                 "reps": 12,
-                "weight": 40.0
+                "weight": 20.0
               }
             ],
             "id": "bf0810"
@@ -12032,15 +12032,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0815"
@@ -12260,15 +12260,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0831"
@@ -12360,15 +12360,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 8,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0838"
@@ -12456,15 +12456,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0845"
@@ -12492,15 +12492,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0847"
@@ -12528,15 +12528,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf0849"
@@ -12766,15 +12766,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0867"
@@ -12820,15 +12820,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0870"
@@ -12862,15 +12862,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0874"
@@ -12898,15 +12898,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0876"
@@ -13190,15 +13190,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0897"
@@ -13208,15 +13208,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 10,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0898"
@@ -13304,15 +13304,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0905"
@@ -13340,15 +13340,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0907"
@@ -13746,15 +13746,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf0936"
@@ -13824,15 +13824,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0942"
@@ -13860,15 +13860,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0944"
@@ -14206,15 +14206,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0968"
@@ -14302,15 +14302,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf0975"
@@ -14476,15 +14476,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0988"
@@ -14594,15 +14594,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               },
               {
                 "reps": 12,
-                "weight": 100.0
+                "weight": 50.0
               }
             ],
             "id": "bf0996"
@@ -14648,15 +14648,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf0999"
@@ -14708,15 +14708,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1004"
@@ -14744,15 +14744,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1006"
@@ -15044,15 +15044,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1027"
@@ -15080,15 +15080,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1029"
@@ -15240,15 +15240,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf1041"
@@ -15354,15 +15354,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1049"
@@ -15408,11 +15408,11 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1052"
@@ -15468,15 +15468,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1057"
@@ -15546,15 +15546,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1063"
@@ -15618,15 +15618,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1067"
@@ -15646,15 +15646,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 11,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 9,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf1070"
@@ -15746,15 +15746,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 8,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf1077"
@@ -15860,15 +15860,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1085"
@@ -15928,15 +15928,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1089"
@@ -16088,15 +16088,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1101"
@@ -16130,15 +16130,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1105"
@@ -16220,15 +16220,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1110"
@@ -16380,15 +16380,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1122"
@@ -16422,15 +16422,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 6,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1126"
@@ -16494,15 +16494,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1130"
@@ -16654,15 +16654,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1142"
@@ -16750,15 +16750,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1149"
@@ -16822,15 +16822,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1153"
@@ -17078,15 +17078,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1172"
@@ -17178,15 +17178,15 @@
             "sets": [
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1179"
@@ -17274,15 +17274,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1186"
@@ -17346,15 +17346,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1190"
@@ -17428,15 +17428,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1196"
@@ -17470,15 +17470,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1200"
@@ -17560,15 +17560,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 10,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1205"
@@ -17588,15 +17588,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               },
               {
                 "reps": 10,
-                "weight": 110.0
+                "weight": 55.0
               }
             ],
             "id": "bf1208"
@@ -17642,15 +17642,15 @@
             "sets": [
               {
                 "reps": 10,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               },
               {
                 "reps": 8,
-                "weight": 80.0
+                "weight": 40.0
               }
             ],
             "id": "bf1211"
@@ -17684,15 +17684,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               },
               {
                 "reps": 12,
-                "weight": 70.0
+                "weight": 35.0
               }
             ],
             "id": "bf1215"
@@ -17774,15 +17774,15 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               },
               {
                 "reps": 12,
-                "weight": 90.0
+                "weight": 45.0
               }
             ],
             "id": "bf1220"
