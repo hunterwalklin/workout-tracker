@@ -154,48 +154,59 @@ const Storage = {
 
   importData(jsonStr) {
     const data = JSON.parse(jsonStr);
+    return this.mergeData(data);
+  },
+
+  // Merge incoming data into existing data without clobbering.
+  // New weeks are added wholesale; for existing weeks, only sessions
+  // with a not-yet-seen id are appended (so in-app edits are preserved).
+  // Returns the number of newly added sessions.
+  mergeData(data) {
     const existing = this.getAll();
+    let added = 0;
     for (const key in data) {
       if (!existing[key]) {
         existing[key] = data[key];
+        added += (data[key].sessions || []).length;
       } else {
-        const existingIds = new Set(existing[key].sessions.map(s => s.id));
+        const existingIds = new Set((existing[key].sessions || []).map(s => s.id));
         for (const session of (data[key].sessions || [])) {
           if (!existingIds.has(session.id)) {
             existing[key].sessions.push(session);
+            added++;
           }
         }
       }
     }
     this.saveAll(existing);
+    return added;
   },
 
-  // Clean up old v1 data and stale backfill keys
+  // Clean up old v1 data and stale backfill flags (no longer used —
+  // backfill now merges on every load instead of gating on a flag).
   cleanupLegacy() {
     localStorage.removeItem('workout_tracker_data');
     localStorage.removeItem('workout_tracker_backfilled');
     localStorage.removeItem('workout_tracker_backfilled_v2');
     localStorage.removeItem('workout_tracker_backfilled_v3');
+    localStorage.removeItem('workout_tracker_backfilled_v4');
+    localStorage.removeItem('workout_tracker_backfilled_v5');
   },
 
-  // Load backfill data on first visit (or re-backfill on version bump)
+  // Merge backfill data on every load so newly added weeks show up
+  // automatically. Deduped by session id, so re-running is safe and
+  // any sessions added/edited in the app are preserved.
+  // Returns the number of newly added sessions (0 if nothing new).
   async loadBackfill() {
     this.cleanupLegacy();
-    const BACKFILL_KEY = 'workout_tracker_backfilled_v5';
-    if (localStorage.getItem(BACKFILL_KEY)) return false;
     try {
-      // Clear existing v2 data so we get a clean import
-      localStorage.removeItem(this.WORKOUTS_KEY);
-      localStorage.removeItem('workout_tracker_backfilled_v4');
-      const res = await fetch('backfill_data.json');
-      if (!res.ok) return false;
+      const res = await fetch('backfill_data.json', { cache: 'no-store' });
+      if (!res.ok) return 0;
       const data = await res.json();
-      this.saveAll(data);
-      localStorage.setItem(BACKFILL_KEY, '1');
-      return true;
+      return this.mergeData(data);
     } catch (e) {
       console.warn('Backfill load failed:', e);
-      return false;
+      return 0;
     }
   }
 };

@@ -7,28 +7,56 @@ Key = Monday of the week.
 
 import json
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 
 RAW_FILE = "raw_sheets_data.txt"
 OUTPUT_FILE = "backfill_data.json"
 
-TAB_DATES = {
-    "5/5/25": "2025-05-05", "5/12": "2025-05-12", "5/19": "2025-05-19",
-    "5/27": "2025-05-27", "6/2": "2025-06-02", "6-9": "2025-06-09",
-    "6-16": "2025-06-16", "6-23": "2025-06-23", "6-30": "2025-06-30",
-    "7-7": "2025-07-07", "7-14": "2025-07-14", "7-21": "2025-07-21",
-    "7-28": "2025-07-28", "8-4": "2025-08-04", "8-11": "2025-08-11",
-    "8-18": "2025-08-18", "8-25": "2025-08-25", "9-1": "2025-09-01",
-    "9-22": "2025-09-22", "10-13": "2025-10-13", "10-20": "2025-10-20",
-    "10-27": "2025-10-27", "11-3": "2025-11-03", "11-10": "2025-11-10",
-    "11-17": "2025-11-17", "11-24": "2025-11-24", "12-1": "2025-12-01",
-    "12-8": "2025-12-08", "12-15": "2025-12-15", "12-22": "2025-12-22",
-    "12-29": "2025-12-29", "1-5": "2026-01-05", "1-12": "2026-01-12",
-    "1-19": "2026-01-19", "1-26": "2026-01-26", "2-2": "2026-02-02",
-    "2-9": "2026-02-09", "2-16": "2026-02-16", "2-23": "2026-02-23",
-    "3-2": "2026-03-02", "3-9": "2026-03-09", "3-16": "2026-03-16",
-    "3-23": "2026-03-23",
-}
+# Year used when a tab name omits the year and there's no prior week to
+# anchor against (i.e. the very first tab).
+FALLBACK_YEAR = 2025
+
+# Optional manual overrides for tab names that don't parse as a date, or
+# whose auto-derived date you want to force. Tab names are normally parsed
+# automatically (see parse_tab_date), so this can stay empty.
+TAB_DATE_OVERRIDES = {}
+
+
+def parse_tab_date(tab_name, frontier):
+    """Derive a week's date from a tab name like '5/12', '6-9', or '5/5/25'.
+
+    Returns a datetime.date, or None if the name isn't date-shaped (e.g.
+    the '2026!!!' marker tab). When the year is omitted, picks the year that
+    places the date closest to `frontier` (the latest week seen so far) so
+    year rollovers and out-of-order tabs resolve correctly. The tab date is
+    used as-is (it need not be a Monday)."""
+    parts = re.split(r'[/-]', tab_name.strip())
+    if len(parts) not in (2, 3) or not all(p.isdigit() for p in parts):
+        return None
+    month, day = int(parts[0]), int(parts[1])
+    if not (1 <= month <= 12 and 1 <= day <= 31):
+        return None
+    if len(parts) == 3:
+        year = int(parts[2])
+        if year < 100:
+            year += 2000
+        try:
+            return date(year, month, day)
+        except ValueError:
+            return None
+    base = frontier.year if frontier else FALLBACK_YEAR
+    best = None
+    for year in range(base - 1, base + 2):
+        try:
+            cand = date(year, month, day)
+        except ValueError:
+            continue
+        if frontier is None:
+            return cand
+        if best is None or abs((cand - frontier).days) < abs((best - frontier).days):
+            best = cand
+    return best
+
 
 TYPE_MAP = {
     "push": "Push",
@@ -375,14 +403,26 @@ def main():
     tab_sections = re.split(r'=== TAB: (.+?) ===', content)
     all_weeks = {}
     id_counter = 0
+    frontier = None  # latest week date seen, used to anchor year inference
 
     for i in range(1, len(tab_sections), 2):
         tab_name = tab_sections[i].strip()
         tab_content = tab_sections[i + 1].strip()
-        if tab_name == "2026!!!" or tab_name not in TAB_DATES:
-            continue
 
-        monday_str = TAB_DATES[tab_name]
+        override = TAB_DATE_OVERRIDES.get(tab_name)
+        week_date = date.fromisoformat(override) if override else parse_tab_date(tab_name, frontier)
+        if week_date is None:
+            # Not a date tab. A bare-year marker (e.g. "2025", "2026!!!") anchors
+            # year inference for the month-day tabs that follow it — necessary
+            # because those tabs ("5-5") omit the year. Everything else (stray
+            # notes) is just skipped.
+            ym = re.search(r'20\d{2}', tab_name)
+            if ym:
+                frontier = date(int(ym.group()), 1, 1)
+            continue
+        if frontier is None or week_date > frontier:
+            frontier = week_date
+        monday_str = week_date.isoformat()
         lines = [l for l in tab_content.split('\n') if l.strip() and not l.startswith('(No CSV')]
         if not lines: continue
 

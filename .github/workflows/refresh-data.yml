@@ -1,0 +1,49 @@
+name: Refresh data from Google Sheet
+
+on:
+  schedule:
+    # Daily at 11:00 UTC. Adjust or add lines as needed.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "refresh-data"
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Fetch sheet tabs
+        env:
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: python3 fetch_sheet.py
+
+      - name: Convert to backfill_data.json
+        run: python3 convert_v2.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- backfill_data.json raw_sheets_data.txt; then
+            echo "No data changes."
+          else
+            git add backfill_data.json raw_sheets_data.txt
+            git commit -m "Refresh workout data from Google Sheet"
+            git push
+          fi

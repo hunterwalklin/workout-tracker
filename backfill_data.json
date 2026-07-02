@@ -64,15 +64,15 @@
             "sets": [
               {
                 "reps": 15,
-                "weight": 0
+                "weight": 90.0
               },
               {
                 "reps": 15,
-                "weight": 0
+                "weight": 90.0
               },
               {
                 "reps": 15,
-                "weight": 0
+                "weight": 90.0
               }
             ],
             "id": "bf0005"
@@ -14022,6 +14022,3770 @@
               }
             ],
             "id": "bf0954"
+          }
+        ]
+      },
+      {
+        "id": "bs0963",
+        "type": "Arms",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf0957"
+          },
+          {
+            "name": "BB Overhead Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf0958"
+          },
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf0959"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf0960"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf0961"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              }
+            ],
+            "id": "bf0962"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-03-30": {
+    "sessions": [
+      {
+        "id": "bs0971",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Chest Press Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf0965"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf0966"
+          },
+          {
+            "name": "BB Overhead Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf0967"
+          },
+          {
+            "name": "Incline DB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 90.0
+              },
+              {
+                "reps": 10,
+                "weight": 90.0
+              },
+              {
+                "reps": 10,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf0968"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 210.0
+              },
+              {
+                "reps": 10,
+                "weight": 210.0
+              },
+              {
+                "reps": 10,
+                "weight": 210.0
+              }
+            ],
+            "id": "bf0969"
+          },
+          {
+            "name": "Tricep Extension Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf0970"
+          }
+        ]
+      },
+      {
+        "id": "bs0979",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf0973"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf0974"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf0975"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf0976"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf0977"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 160.0
+              },
+              {
+                "reps": 10,
+                "weight": 160.0
+              },
+              {
+                "reps": 10,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf0978"
+          }
+        ]
+      },
+      {
+        "id": "bs0986",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 30,
+                "weight": 10.0
+              },
+              {
+                "reps": 30,
+                "weight": 10.0
+              },
+              {
+                "reps": 30,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf0981"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf0982"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf0983"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf0984"
+          },
+          {
+            "name": "Knee Ups",
+            "sets": [
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              }
+            ],
+            "id": "bf0985"
+          }
+        ]
+      },
+      {
+        "id": "bs0994",
+        "type": "Arms",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf0988"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf0989"
+          },
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf0990"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf0991"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf0992"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              }
+            ],
+            "id": "bf0993"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-04-06": {
+    "sessions": [
+      {
+        "id": "bs1002",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Incline DB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 100.0
+              },
+              {
+                "reps": 12,
+                "weight": 100.0
+              },
+              {
+                "reps": 12,
+                "weight": 100.0
+              }
+            ],
+            "id": "bf0996"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 210.0
+              },
+              {
+                "reps": 12,
+                "weight": 210.0
+              },
+              {
+                "reps": 12,
+                "weight": 210.0
+              }
+            ],
+            "id": "bf0997"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf0998"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf0999"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1000"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              },
+              {
+                "reps": 12,
+                "weight": 155.0
+              }
+            ],
+            "id": "bf1001"
+          }
+        ]
+      },
+      {
+        "id": "bs1010",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1004"
+          },
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 12,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf1005"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1006"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1007"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1008"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1009"
+          }
+        ]
+      },
+      {
+        "id": "bs1017",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1012"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1013"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1014"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1015"
+          },
+          {
+            "name": "Knee Ups",
+            "sets": [
+              {
+                "reps": 25,
+                "weight": 0
+              },
+              {
+                "reps": 25,
+                "weight": 0
+              },
+              {
+                "reps": 25,
+                "weight": 0
+              }
+            ],
+            "id": "bf1016"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-04-13": {
+    "sessions": [
+      {
+        "id": "bs1024",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1019"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 215.0
+              },
+              {
+                "reps": 10,
+                "weight": 215.0
+              },
+              {
+                "reps": 10,
+                "weight": 215.0
+              }
+            ],
+            "id": "bf1020"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1021"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1022"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1023"
+          }
+        ]
+      },
+      {
+        "id": "bs1032",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1026"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1027"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1028"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1029"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1030"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1031"
+          }
+        ]
+      },
+      {
+        "id": "bs1039",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1034"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1035"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1036"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1037"
+          },
+          {
+            "name": "Knee Ups",
+            "sets": [
+              {
+                "reps": 25,
+                "weight": 0
+              },
+              {
+                "reps": 25,
+                "weight": 0
+              },
+              {
+                "reps": 25,
+                "weight": 0
+              }
+            ],
+            "id": "bf1038"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-04-20": {
+    "sessions": [
+      {
+        "id": "bs1046",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Incline DB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 10,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1041"
+          },
+          {
+            "name": "Chest Press Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1042"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1043"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 215.0
+              },
+              {
+                "reps": 12,
+                "weight": 215.0
+              },
+              {
+                "reps": 10,
+                "weight": 215.0
+              }
+            ],
+            "id": "bf1044"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1045"
+          }
+        ]
+      },
+      {
+        "id": "bs1054",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1048"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1049"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1050"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1051"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1052"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1053"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-04-27": {
+    "sessions": [
+      {
+        "id": "bs1061",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 6,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1056"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1057"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 215.0
+              },
+              {
+                "reps": 12,
+                "weight": 215.0
+              },
+              {
+                "reps": 12,
+                "weight": 215.0
+              }
+            ],
+            "id": "bf1058"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1059"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1060"
+          }
+        ]
+      },
+      {
+        "id": "bs1068",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1063"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1064"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1065"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1066"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1067"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-05-04": {
+    "sessions": [
+      {
+        "id": "bs1075",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Incline DB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 11,
+                "weight": 110.0
+              },
+              {
+                "reps": 9,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1070"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 220.0
+              },
+              {
+                "reps": 10,
+                "weight": 220.0
+              },
+              {
+                "reps": 10,
+                "weight": 220.0
+              }
+            ],
+            "id": "bf1071"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 8,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1072"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1073"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1074"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-05-11": {
+    "sessions": [
+      {
+        "id": "bs1082",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "DB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 8,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1077"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1078"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 10,
+                "weight": 220.0
+              },
+              {
+                "reps": 10,
+                "weight": 220.0
+              }
+            ],
+            "id": "bf1079"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 8,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1080"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1081"
+          }
+        ]
+      },
+      {
+        "id": "bs1090",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1084"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1085"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 165.0
+              },
+              {
+                "reps": 10,
+                "weight": 165.0
+              },
+              {
+                "reps": 10,
+                "weight": 165.0
+              }
+            ],
+            "id": "bf1086"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1087"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1088"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1089"
+          }
+        ]
+      },
+      {
+        "id": "bs1096",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1092"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1093"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1094"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1095"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-05-18": {
+    "sessions": [
+      {
+        "id": "bs1103",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Chest Press Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1098"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              }
+            ],
+            "id": "bf1099"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 6,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1100"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1101"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1102"
+          }
+        ]
+      },
+      {
+        "id": "bs1111",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1105"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 170.0
+              },
+              {
+                "reps": 10,
+                "weight": 170.0
+              },
+              {
+                "reps": 10,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1106"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              }
+            ],
+            "id": "bf1107"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1108"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1109"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1110"
+          }
+        ]
+      },
+      {
+        "id": "bs1117",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1113"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1114"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1115"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1116"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-05-25": {
+    "sessions": [
+      {
+        "id": "bs1124",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Chest Press Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1119"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              }
+            ],
+            "id": "bf1120"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 10,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1121"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1122"
+          },
+          {
+            "name": "Tricep Extension Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1123"
+          }
+        ]
+      },
+      {
+        "id": "bs1132",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 6,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1126"
+          },
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf1127"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1128"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1129"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1130"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 170.0
+              },
+              {
+                "reps": 10,
+                "weight": 170.0
+              },
+              {
+                "reps": 10,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1131"
+          }
+        ]
+      },
+      {
+        "id": "bs1139",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1134"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1135"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1136"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1137"
+          },
+          {
+            "name": "Leg lifts",
+            "sets": [
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              }
+            ],
+            "id": "bf1138"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-06-01": {
+    "sessions": [
+      {
+        "id": "bs1146",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1141"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1142"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              },
+              {
+                "reps": 12,
+                "weight": 220.0
+              }
+            ],
+            "id": "bf1143"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1144"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1145"
+          }
+        ]
+      },
+      {
+        "id": "bs1154",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1148"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1149"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1150"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1151"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1152"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1153"
+          }
+        ]
+      },
+      {
+        "id": "bs1162",
+        "type": "Core",
+        "exercises": [
+          {
+            "name": "Decline Ball Sit-Ups",
+            "sets": [
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              },
+              {
+                "reps": 35,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1156"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": [
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              },
+              {
+                "reps": 50,
+                "weight": 10.0
+              }
+            ],
+            "id": "bf1157"
+          },
+          {
+            "name": "Penguins",
+            "sets": [
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              },
+              {
+                "reps": 75,
+                "weight": 0
+              }
+            ],
+            "id": "bf1158"
+          },
+          {
+            "name": "Planks",
+            "sets": [
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              },
+              {
+                "reps": 60,
+                "weight": 0
+              }
+            ],
+            "id": "bf1159"
+          },
+          {
+            "name": "Leg lifts",
+            "sets": [
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              },
+              {
+                "reps": 20,
+                "weight": 0
+              }
+            ],
+            "id": "bf1160"
+          },
+          {
+            "name": "DB Goblet Squat",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1161"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-06-08": {
+    "sessions": [
+      {
+        "id": "bs1169",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1164"
+          },
+          {
+            "name": "Lat Raise Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              },
+              {
+                "reps": 12,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1165"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 225.0
+              },
+              {
+                "reps": 10,
+                "weight": 225.0
+              },
+              {
+                "reps": 12,
+                "weight": 225.0
+              }
+            ],
+            "id": "bf1166"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1167"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1168"
+          }
+        ]
+      },
+      {
+        "id": "bs1176",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              },
+              {
+                "reps": 10,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1171"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1172"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1173"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1174"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1175"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-06-15": {
+    "sessions": [
+      {
+        "id": "bs1183",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Chest Press Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1178"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 10,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1179"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 225.0
+              },
+              {
+                "reps": 12,
+                "weight": 225.0
+              },
+              {
+                "reps": 12,
+                "weight": 225.0
+              }
+            ],
+            "id": "bf1180"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              },
+              {
+                "reps": 12,
+                "weight": 170.0
+              }
+            ],
+            "id": "bf1181"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              },
+              {
+                "reps": 12,
+                "weight": 160.0
+              }
+            ],
+            "id": "bf1182"
+          }
+        ]
+      },
+      {
+        "id": "bs1191",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 12,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1185"
+          },
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              },
+              {
+                "reps": 10,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1186"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1187"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1188"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1189"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1190"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-06-22": {
+    "sessions": [
+      {
+        "id": "bs1198",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              },
+              {
+                "reps": 6,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1193"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 230.0
+              },
+              {
+                "reps": 10,
+                "weight": 230.0
+              },
+              {
+                "reps": 10,
+                "weight": 230.0
+              }
+            ],
+            "id": "bf1194"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1195"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1196"
+          },
+          {
+            "name": "Cable Straight Bar Pushdowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 165.0
+              },
+              {
+                "reps": 10,
+                "weight": 165.0
+              },
+              {
+                "reps": 10,
+                "weight": 165.0
+              }
+            ],
+            "id": "bf1197"
+          }
+        ]
+      },
+      {
+        "id": "bs1206",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1200"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              },
+              {
+                "reps": 10,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1201"
+          },
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf1202"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1203"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1204"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 90.0
+              },
+              {
+                "reps": 10,
+                "weight": 90.0
+              },
+              {
+                "reps": 10,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1205"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-06-29": {
+    "sessions": [
+      {
+        "id": "bs1213",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "Incline DB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 10,
+                "weight": 110.0
+              },
+              {
+                "reps": 10,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1208"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 230.0
+              },
+              {
+                "reps": 10,
+                "weight": 230.0
+              },
+              {
+                "reps": 10,
+                "weight": 230.0
+              }
+            ],
+            "id": "bf1209"
+          },
+          {
+            "name": "Rear Delt Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 10,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1210"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              },
+              {
+                "reps": 8,
+                "weight": 80.0
+              }
+            ],
+            "id": "bf1211"
+          },
+          {
+            "name": "Tricep Extension Machine",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              },
+              {
+                "reps": 12,
+                "weight": 110.0
+              }
+            ],
+            "id": "bf1212"
+          }
+        ]
+      },
+      {
+        "id": "bs1221",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1215"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1216"
+          },
+          {
+            "name": "EZ Bar Preacher Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              },
+              {
+                "reps": 10,
+                "weight": 60.0
+              }
+            ],
+            "id": "bf1217"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1218"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              },
+              {
+                "reps": 12,
+                "weight": 175.0
+              }
+            ],
+            "id": "bf1219"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              },
+              {
+                "reps": 12,
+                "weight": 90.0
+              }
+            ],
+            "id": "bf1220"
           }
         ]
       }

@@ -826,9 +826,11 @@
 
   // === Init ===
   async function init() {
-    const backfilled = await Storage.loadBackfill();
+    const added = await Storage.loadBackfill();
     renderWeek();
-    if (backfilled) showToast('Loaded your workout history!', 'success');
+    if (added > 0) {
+      showToast(`Loaded ${added} new workout${added === 1 ? '' : 's'}!`, 'success');
+    }
     initialSync();
   }
   init();
