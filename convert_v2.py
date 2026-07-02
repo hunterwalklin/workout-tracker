@@ -231,7 +231,7 @@ NAME_MAP = {
     "incline db curl": "Seated Incline DB Curls",
     "incline db curls": "Seated Incline DB Curls",
     "single arm db curl": "Single Arm DB Curl",
-    "seated bicep curls": "Seated DB Curls",
+    "seated bicep curls": "Seated Incline DB Curls",
     "standing bicep curls": "Standing DB Curls",
     "seated db hammer curls": "Seated DB Hammer Curls",
     "kettleball swings": "Kettlebell Swings",
