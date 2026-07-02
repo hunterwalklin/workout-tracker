@@ -69,6 +69,7 @@
       document.getElementById('tab-' + tab).classList.add('active');
       if (tab === 'progress') refreshProgressOptions();
       if (tab === 'exercises') renderExercisesTab();
+      if (tab === 'coach') renderCoach();
     });
   });
 
@@ -852,6 +853,155 @@
       refreshBtn.disabled = false;
     }
   });
+
+  // === AI Coach ===
+  const COACH_SYSTEM = `You are a knowledgeable, encouraging strength-training coach built into the user's workout tracker app. Give practical, specific, and safe advice grounded in the user's actual logged history.
+
+When the user asks for a suggested workout, produce a concrete session: name the exercises, prescribe sets x reps, and suggest working weights based on what they have lifted recently (a sensible progression, not a big jump). Prefer exercises they already do unless variety is warranted.
+
+Keep responses focused and easy to skim — use short paragraphs or lists, not walls of text. Note that recorded weights are as the user logs them; for dumbbell exercises that is the weight of a single dumbbell.`;
+
+  let coachHistory = [];
+
+  function getApiKey() {
+    return (Storage.getSettings().anthropicKey || '').trim();
+  }
+
+  function buildWorkoutContext() {
+    const all = Storage.getAll();
+    const weeks = Object.keys(all).sort();
+    if (!weeks.length) return 'The user has no logged workouts yet.';
+    let out = `The user has ${weeks.length} weeks of logged workouts, from ${weeks[0]} to ${weeks[weeks.length - 1]}.\n\nMost recent workouts (best set shown per exercise):\n`;
+    for (const wk of weeks.slice(-6)) {
+      for (const s of (all[wk].sessions || [])) {
+        const exs = s.exercises.map(ex => {
+          const best = ex.sets.reduce((b, st) => (st.weight > b.weight ? st : b), ex.sets[0]);
+          const w = best.weight ? `${best.weight}lb` : 'bodyweight';
+          return `${ex.name} ${ex.sets.length}x${best.reps} @ ${w}`;
+        }).join('; ');
+        out += `- Week of ${wk} [${s.type}]: ${exs}\n`;
+      }
+    }
+    return out;
+  }
+
+  function coachBubble(role, text) {
+    const wrap = document.getElementById('coach-messages');
+    const el = document.createElement('div');
+    el.className = 'coach-msg ' + role;
+    el.textContent = text;
+    wrap.appendChild(el);
+    wrap.scrollTop = wrap.scrollHeight;
+    return el;
+  }
+
+  function renderCoach() {
+    const hasKey = !!getApiKey();
+    document.getElementById('coach-setup').classList.toggle('hidden', hasKey);
+    document.getElementById('coach-chat').classList.toggle('hidden', !hasKey);
+    const keyInput = document.getElementById('anthropic-key');
+    if (!hasKey) keyInput.value = '';
+    const wrap = document.getElementById('coach-messages');
+    if (hasKey && !wrap.children.length) {
+      coachBubble('assistant', "Hey! I'm your training coach and I can see your logged history. Ask me for a suggested workout, or how your progress is looking.");
+    }
+  }
+
+  async function streamClaude(messages, onDelta) {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': getApiKey(),
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
+      },
+      body: JSON.stringify({
+        model: 'claude-opus-4-8',
+        max_tokens: 2048,
+        system: COACH_SYSTEM + '\n\n' + buildWorkoutContext(),
+        messages,
+        stream: true,
+      }),
+    });
+    if (!resp.ok) {
+      let msg = `API error ${resp.status}`;
+      try { const e = await resp.json(); if (e.error && e.error.message) msg = e.error.message; } catch (e) {}
+      throw new Error(msg);
+    }
+    const reader = resp.body.getReader();
+    const dec = new TextDecoder();
+    let buf = '', full = '';
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      const lines = buf.split('\n');
+      buf = lines.pop();
+      for (const line of lines) {
+        if (!line.startsWith('data:')) continue;
+        const payload = line.slice(5).trim();
+        if (!payload) continue;
+        let data;
+        try { data = JSON.parse(payload); } catch (e) { continue; }
+        if (data.type === 'content_block_delta' && data.delta && data.delta.type === 'text_delta') {
+          full += data.delta.text;
+          onDelta(full);
+        } else if (data.type === 'error') {
+          throw new Error((data.error && data.error.message) || 'stream error');
+        }
+      }
+    }
+    return full;
+  }
+
+  async function sendCoach() {
+    const input = document.getElementById('coach-input');
+    const sendBtn = document.getElementById('coach-send');
+    const text = input.value.trim();
+    if (!text || sendBtn.disabled) return;
+    input.value = '';
+    input.style.height = 'auto';
+    coachBubble('user', text);
+    coachHistory.push({ role: 'user', content: text });
+    sendBtn.disabled = true;
+    const bubble = coachBubble('assistant', '');
+    bubble.innerHTML = '<span class="typing">…</span>';
+    const wrap = document.getElementById('coach-messages');
+    try {
+      const reply = await streamClaude(coachHistory, (partial) => {
+        bubble.textContent = partial;
+        wrap.scrollTop = wrap.scrollHeight;
+      });
+      bubble.textContent = reply;
+      coachHistory.push({ role: 'assistant', content: reply });
+    } catch (e) {
+      bubble.remove();
+      coachHistory.pop(); // drop the unanswered user turn so history stays valid
+      coachBubble('error', 'Error: ' + e.message);
+    } finally {
+      sendBtn.disabled = false;
+    }
+  }
+
+  document.getElementById('save-key-btn').addEventListener('click', () => {
+    const val = document.getElementById('anthropic-key').value.trim();
+    const settings = Storage.getSettings();
+    settings.anthropicKey = val;
+    Storage.saveSettings(settings);
+    showToast(val ? 'API key saved' : 'API key cleared', val ? 'success' : '');
+    renderCoach();
+  });
+
+  const coachInputEl = document.getElementById('coach-input');
+  coachInputEl.addEventListener('input', () => {
+    coachInputEl.style.height = 'auto';
+    coachInputEl.style.height = Math.min(coachInputEl.scrollHeight, 160) + 'px';
+  });
+  coachInputEl.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendCoach(); }
+  });
+  document.getElementById('coach-send').addEventListener('click', sendCoach);
 
   // === Init ===
   async function init() {
