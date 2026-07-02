@@ -293,6 +293,7 @@ NAME_MAP = {
     "planks": "Planks",
     "knee ups": "Knee Ups",
     "leg ups": "Leg Ups",
+    "leg lifts": "Leg Lifts",
 
     # Preacher curl (DB)
     "preacher curl": "DB Preacher Curl",
