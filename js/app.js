@@ -850,12 +850,16 @@
 
   // === Init ===
   async function init() {
+    // Pull the legacy Apps Script sync FIRST (if configured), then load the
+    // backfill pipeline LAST so the sheet-derived data is authoritative — the
+    // old sync mirror can hold stale values (e.g. pre-correction weights) and
+    // must not overwrite the freshly published backfill.
+    await initialSync();
     const added = await Storage.loadBackfill();
     renderWeek();
     if (added > 0) {
       showToast(`Loaded ${added} new workout${added === 1 ? '' : 's'}!`, 'success');
     }
-    initialSync();
   }
   init();
 })();
