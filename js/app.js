@@ -824,6 +824,30 @@
     return div.innerHTML;
   }
 
+  // === Refresh ===
+  // Re-pull the published backfill data (regenerated daily from the sheet by
+  // the GitHub Action) and merge in anything new, without a full page reload.
+  const refreshBtn = document.getElementById('refresh-btn');
+  refreshBtn.addEventListener('click', async () => {
+    refreshBtn.classList.add('spinning');
+    refreshBtn.disabled = true;
+    try {
+      const added = await Storage.loadBackfill();
+      const activeTab = document.querySelector('.nav-btn.active').dataset.tab;
+      if (activeTab === 'exercises') renderExercisesTab();
+      else if (activeTab === 'progress') refreshProgressOptions();
+      else renderWeek();
+      showToast(added > 0
+        ? `Loaded ${added} new workout${added === 1 ? '' : 's'}!`
+        : 'Up to date', added > 0 ? 'success' : '');
+    } catch (e) {
+      showToast('Refresh failed', 'error');
+    } finally {
+      refreshBtn.classList.remove('spinning');
+      refreshBtn.disabled = false;
+    }
+  });
+
   // === Init ===
   async function init() {
     const added = await Storage.loadBackfill();
