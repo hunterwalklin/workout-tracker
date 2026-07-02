@@ -157,10 +157,12 @@ const Storage = {
     return this.mergeData(data);
   },
 
-  // Merge incoming data into existing data without clobbering.
-  // New weeks are added wholesale; for existing weeks, only sessions
-  // with a not-yet-seen id are appended (so in-app edits are preserved).
-  // Returns the number of newly added sessions.
+  // Merge incoming (sheet-derived) data into existing data. The sheet is the
+  // source of truth, so a session that shares an id with an incoming one is
+  // overwritten (this is how corrections — e.g. changed weights — propagate).
+  // New sessions are appended; sessions/weeks that exist only locally (e.g.
+  // added in-app, with non-backfill ids) are left untouched.
+  // Returns the number of newly added sessions (not counting updates).
   mergeData(data) {
     const existing = this.getAll();
     let added = 0;
@@ -169,11 +171,14 @@ const Storage = {
         existing[key] = data[key];
         added += (data[key].sessions || []).length;
       } else {
-        const existingIds = new Set((existing[key].sessions || []).map(s => s.id));
+        const sessions = existing[key].sessions || (existing[key].sessions = []);
         for (const session of (data[key].sessions || [])) {
-          if (!existingIds.has(session.id)) {
-            existing[key].sessions.push(session);
+          const idx = sessions.findIndex(s => s.id === session.id);
+          if (idx === -1) {
+            sessions.push(session);
             added++;
+          } else {
+            sessions[idx] = session;  // overwrite with latest from the sheet
           }
         }
       }
