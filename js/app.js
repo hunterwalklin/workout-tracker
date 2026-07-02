@@ -500,6 +500,10 @@
       let value;
       if (metric === 'max-weight') value = Math.max(...entry.sets.map(s => s.weight));
       else if (metric === 'total-volume') value = entry.sets.reduce((sum, s) => sum + s.reps * s.weight, 0);
+      else if (metric === 'est-1rm') {
+        // Epley: weight × (1 + reps/30); chart the best set of the session.
+        value = Math.round(Math.max(...entry.sets.map(s => s.weight * (1 + s.reps / 30))) * 10) / 10;
+      }
       else value = Math.max(...entry.sets.map(s => s.reps));
       labels.push(dateLabel);
       values.push(value);
@@ -508,6 +512,7 @@
     if (progressChart) progressChart.destroy();
 
     const metricLabels = {
+      'est-1rm': 'Estimated 1RM (lbs)',
       'max-weight': 'Max Weight (lbs)',
       'total-volume': 'Total Volume (lbs)',
       'max-reps': 'Max Reps'
