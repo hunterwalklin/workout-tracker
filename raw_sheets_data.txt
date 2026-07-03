@@ -283,7 +283,7 @@
 "DB flys","3(8)","25 lbs","ez bar preacher curls","3(8)","15 lbs","leg extensions","3(8)","135 lbs "
 "db shoulder press","3(8)","30 lbs","cable curls","3(8)","80 lbs","Hip abduction","3(8)","140 lbs ","Adduction harder than abduction"
 "db lateral raises","3(8)","20 lbs","lat pulldowns","3(8)","125 lbs","Hip adduction ","3(8)","140 lbs"
-"BB bench press","3(6)","2 at 37.5 lbs and 1 at 35","db standing rows","3(8)","40 lbs","chest press machine","3(8)","100 lbs"
+"BB bench press","3(6)","37.5 lbs ","db standing rows","3(8)","40 lbs","chest press machine","3(8)","100 lbs"
 "tricep extension machine","3(8)","90 lbs","reverse lunges","3(8 each leg)","35 lbs","single arm db curl","3(8)","25 lbs hard"
 "db goblet squat","3(8)","50 lbs"
 "","","","","","","Decline exercise ball sit-ups","3(25)","10 lbs"
