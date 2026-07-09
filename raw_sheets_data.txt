@@ -639,3 +639,9 @@
 "db shoulder press","3(10,8,8)","40 lbs","band pull aparts","3(15)","red band"
 "tricep extension machine","3(12)","110 lbs","lat pulldowns","3(12)","175 lbs"
 "","","","Hammer Curls","3(12)","45 lbs"
+
+=== TAB: 7-6 ===
+"Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight","","","","","","","","","","","","","","","","","","","",""
+"BB Bench","4(9,7,5,5)","45 lbs"
+"bb overhead press","3(10)","15 lbs"
+"EZ bar skull crusher","3(12)","15 lbs"
