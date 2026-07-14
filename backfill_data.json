@@ -17858,5 +17858,69 @@
         ]
       }
     ]
+  },
+  "2026-07-13": {
+    "sessions": [
+      {
+        "id": "bs1231",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              },
+              {
+                "reps": 10,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1228"
+          },
+          {
+            "name": "BB Overhead Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              }
+            ],
+            "id": "bf1229"
+          },
+          {
+            "name": "EZ bar skull crusher",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 55.0
+              },
+              {
+                "reps": 15,
+                "weight": 55.0
+              },
+              {
+                "reps": 15,
+                "weight": 55.0
+              }
+            ],
+            "id": "bf1230"
+          }
+        ]
+      }
+    ]
   }
 }

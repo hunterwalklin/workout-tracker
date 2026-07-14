@@ -645,3 +645,9 @@
 "BB Bench","4(9,7,5,5)","45 lbs"
 "bb overhead press","3(10)","15 lbs"
 "EZ bar skull crusher","3(12)","15 lbs"
+
+=== TAB: 7-13 ===
+"Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight","","","","","","","","","","","","","","","","","","","",""
+"BB Bench","3(10)","40 lbs"
+"bb overhead press","3(10)","15 lbs"
+"EZ bar skull crusher","3(15)","20 lbs"
