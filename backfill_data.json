@@ -17920,6 +17920,66 @@
             "id": "bf1230"
           }
         ]
+      },
+      {
+        "id": "bs1236",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              }
+            ],
+            "id": "bf1233"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1234"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1235"
+          }
+        ]
       }
     ]
   }

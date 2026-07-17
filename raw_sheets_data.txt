@@ -648,6 +648,8 @@
 
 === TAB: 7-13 ===
 "Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight","","","","","","","","","","","","","","","","","","","",""
-"BB Bench","3(10)","40 lbs"
-"bb overhead press","3(10)","15 lbs"
-"EZ bar skull crusher","3(15)","20 lbs"
+"BB Bench","3(10)","40 lbs","Standing EZ bar curls ","3(10)","30 lbs"
+"bb overhead press","3(10)","15 lbs","Bent over BB row","3(12)","40 lbs"
+"EZ bar skull crusher","3(15)","20 lbs","Hammer curls","3(12)","45 lbs"
+"","","","Assisted pull ups?"
+"","","","band pull aparts"
