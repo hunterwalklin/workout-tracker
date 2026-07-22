@@ -653,3 +653,6 @@
 "EZ bar skull crusher","3(15)","20 lbs","Hammer curls","3(12)","45 lbs"
 "","","","Assisted pull ups?"
 "","","","band pull aparts"
+
+=== TAB: 7-20 ===
+"No workouts. Vacation and resting wrist"
