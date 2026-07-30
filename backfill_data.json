@@ -17982,5 +17982,87 @@
         ]
       }
     ]
+  },
+  "2026-07-27": {
+    "sessions": [
+      {
+        "id": "bs1242",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "DB Incline",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 50.0
+              },
+              {
+                "reps": 10,
+                "weight": 50.0
+              },
+              {
+                "reps": 10,
+                "weight": 50.0
+              }
+            ],
+            "id": "bf1238"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 25.0
+              },
+              {
+                "reps": 12,
+                "weight": 25.0
+              },
+              {
+                "reps": 12,
+                "weight": 25.0
+              }
+            ],
+            "id": "bf1239"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 12,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1240"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              }
+            ],
+            "id": "bf1241"
+          }
+        ]
+      }
+    ]
   }
 }

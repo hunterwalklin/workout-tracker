@@ -656,3 +656,11 @@
 
 === TAB: 7-20 ===
 "No workouts. Vacation and resting wrist"
+
+=== TAB: 7-27 ===
+"Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight","","","","","","","","","","","","","","","","","","","",""
+"DB Incline","3(12,10,10)","50 lbs"
+"DB flys","3(12)","25 lbs"
+"db shoulder press","3(12)","35 lbs"
+"db lateral raises","3(12)","15 lbs"
+"","",""
