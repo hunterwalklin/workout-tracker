@@ -17922,7 +17922,7 @@
         ]
       },
       {
-        "id": "bs1236",
+        "id": "bs1237",
         "type": "Pull",
         "exercises": [
           {
@@ -17978,6 +17978,24 @@
               }
             ],
             "id": "bf1235"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1236"
           }
         ]
       }
@@ -17986,7 +18004,7 @@
   "2026-07-27": {
     "sessions": [
       {
-        "id": "bs1242",
+        "id": "bs1243",
         "type": "Push",
         "exercises": [
           {
@@ -18005,7 +18023,7 @@
                 "weight": 50.0
               }
             ],
-            "id": "bf1238"
+            "id": "bf1239"
           },
           {
             "name": "DB Chest Fly",
@@ -18023,7 +18041,7 @@
                 "weight": 25.0
               }
             ],
-            "id": "bf1239"
+            "id": "bf1240"
           },
           {
             "name": "DB Shoulder Press",
@@ -18041,7 +18059,7 @@
                 "weight": 35.0
               }
             ],
-            "id": "bf1240"
+            "id": "bf1241"
           },
           {
             "name": "DB Lateral Raises",
@@ -18059,7 +18077,103 @@
                 "weight": 15.0
               }
             ],
-            "id": "bf1241"
+            "id": "bf1242"
+          }
+        ]
+      },
+      {
+        "id": "bs1250",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1245"
+          },
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              }
+            ],
+            "id": "bf1246"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              },
+              {
+                "reps": 12,
+                "weight": 125.0
+              }
+            ],
+            "id": "bf1247"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1248"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1249"
           }
         ]
       }
