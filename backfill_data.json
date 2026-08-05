@@ -18080,9 +18080,109 @@
             "id": "bf1242"
           }
         ]
-      },
+      }
+    ]
+  },
+  "2026-08-03": {
+    "sessions": [
       {
         "id": "bs1250",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 10,
+                "weight": 115.0
+              }
+            ],
+            "id": "bf1245"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 25.0
+              },
+              {
+                "reps": 10,
+                "weight": 25.0
+              },
+              {
+                "reps": 10,
+                "weight": 25.0
+              }
+            ],
+            "id": "bf1246"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 12,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1247"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              }
+            ],
+            "id": "bf1248"
+          },
+          {
+            "name": "EZ bar skull crusher",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 12,
+                "weight": 55.0
+              }
+            ],
+            "id": "bf1249"
+          }
+        ]
+      },
+      {
+        "id": "bs1257",
         "type": "Pull",
         "exercises": [
           {
@@ -18101,7 +18201,7 @@
                 "weight": 35.0
               }
             ],
-            "id": "bf1245"
+            "id": "bf1252"
           },
           {
             "name": "Standing EZ bar curls",
@@ -18119,7 +18219,7 @@
                 "weight": 75.0
               }
             ],
-            "id": "bf1246"
+            "id": "bf1253"
           },
           {
             "name": "BB Bent Over Row",
@@ -18137,7 +18237,7 @@
                 "weight": 125.0
               }
             ],
-            "id": "bf1247"
+            "id": "bf1254"
           },
           {
             "name": "Hammer Curls",
@@ -18155,7 +18255,7 @@
                 "weight": 45.0
               }
             ],
-            "id": "bf1248"
+            "id": "bf1255"
           },
           {
             "name": "Band Pull Aparts",
@@ -18173,7 +18273,7 @@
                 "weight": 0
               }
             ],
-            "id": "bf1249"
+            "id": "bf1256"
           }
         ]
       }
