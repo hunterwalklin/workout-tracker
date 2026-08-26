@@ -18393,11 +18393,11 @@
                 "weight": 35.0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "weight": 35.0
               },
               {
-                "reps": 12,
+                "reps": 8,
                 "weight": 35.0
               }
             ],
@@ -18443,15 +18443,15 @@
             "name": "Hammer Curls",
             "sets": [
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 45.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 45.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 45.0
               }
             ],
