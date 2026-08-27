@@ -18286,7 +18286,7 @@
   "2026-08-17": {
     "sessions": [
       {
-        "id": "bs1264",
+        "id": "bs1263",
         "type": "Push",
         "exercises": [
           {
@@ -18360,29 +18360,11 @@
               }
             ],
             "id": "bf1262"
-          },
-          {
-            "name": "EZ bar skull crusher",
-            "sets": [
-              {
-                "reps": 12,
-                "weight": 55.0
-              },
-              {
-                "reps": 12,
-                "weight": 55.0
-              },
-              {
-                "reps": 12,
-                "weight": 55.0
-              }
-            ],
-            "id": "bf1263"
           }
         ]
       },
       {
-        "id": "bs1271",
+        "id": "bs1270",
         "type": "Pull",
         "exercises": [
           {
@@ -18401,7 +18383,7 @@
                 "weight": 35.0
               }
             ],
-            "id": "bf1266"
+            "id": "bf1265"
           },
           {
             "name": "Standing EZ bar curls",
@@ -18419,7 +18401,7 @@
                 "weight": 65.0
               }
             ],
-            "id": "bf1267"
+            "id": "bf1266"
           },
           {
             "name": "BB Bent Over Row",
@@ -18437,7 +18419,7 @@
                 "weight": 125.0
               }
             ],
-            "id": "bf1268"
+            "id": "bf1267"
           },
           {
             "name": "Hammer Curls",
@@ -18455,7 +18437,7 @@
                 "weight": 45.0
               }
             ],
-            "id": "bf1269"
+            "id": "bf1268"
           },
           {
             "name": "Band Pull Aparts",
@@ -18473,7 +18455,107 @@
                 "weight": 0
               }
             ],
-            "id": "bf1270"
+            "id": "bf1269"
+          }
+        ]
+      }
+    ]
+  },
+  "2026-08-24": {
+    "sessions": [
+      {
+        "id": "bs1277",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              }
+            ],
+            "id": "bf1272"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 30.0
+              },
+              {
+                "reps": 10,
+                "weight": 30.0
+              },
+              {
+                "reps": 10,
+                "weight": 30.0
+              }
+            ],
+            "id": "bf1273"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1274"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              },
+              {
+                "reps": 12,
+                "weight": 15.0
+              }
+            ],
+            "id": "bf1275"
+          },
+          {
+            "name": "EZ bar skull crusher",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 10,
+                "weight": 55.0
+              }
+            ],
+            "id": "bf1276"
           }
         ]
       }
