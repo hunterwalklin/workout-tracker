@@ -18560,5 +18560,105 @@
         ]
       }
     ]
+  },
+  "2026-08-31": {
+    "sessions": [
+      {
+        "id": "bs1284",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              },
+              {
+                "reps": 12,
+                "weight": 115.0
+              }
+            ],
+            "id": "bf1279"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 30.0
+              },
+              {
+                "reps": 10,
+                "weight": 30.0
+              },
+              {
+                "reps": 10,
+                "weight": 30.0
+              }
+            ],
+            "id": "bf1280"
+          },
+          {
+            "name": "BB Overhead Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              },
+              {
+                "reps": 10,
+                "weight": 75.0
+              }
+            ],
+            "id": "bf1281"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 17.5
+              },
+              {
+                "reps": 12,
+                "weight": 17.5
+              },
+              {
+                "reps": 12,
+                "weight": 17.5
+              }
+            ],
+            "id": "bf1282"
+          },
+          {
+            "name": "EZ bar skull crusher",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 12,
+                "weight": 55.0
+              },
+              {
+                "reps": 10,
+                "weight": 55.0
+              }
+            ],
+            "id": "bf1283"
+          }
+        ]
+      }
+    ]
   }
 }
