@@ -18607,15 +18607,15 @@
             "name": "BB Overhead Press",
             "sets": [
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 75.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 75.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 75.0
               }
             ],
@@ -18625,16 +18625,16 @@
             "name": "DB Lateral Raises",
             "sets": [
               {
-                "reps": 12,
-                "weight": 17.5
+                "reps": 10,
+                "weight": 20.0
               },
               {
-                "reps": 12,
-                "weight": 17.5
+                "reps": 10,
+                "weight": 20.0
               },
               {
-                "reps": 12,
-                "weight": 17.5
+                "reps": 10,
+                "weight": 20.0
               }
             ],
             "id": "bf1282"
@@ -18651,7 +18651,7 @@
                 "weight": 55.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 55.0
               }
             ],
