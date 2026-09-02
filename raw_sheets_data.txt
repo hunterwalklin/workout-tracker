@@ -697,9 +697,9 @@
 "EZ bar skull crusher","3(12,12,10)","20 lbs"
 
 === TAB: 8-31 ===
-"Push dominant","Sets(reps)","weight"
-"BB Bench","3(12)","35 lbs"
-"DB flys","3(10)","30 lbs"
-"bb overhead press","3(12)","15 lbs"
-"db lateral raises","3(10)","20 lbs"
-"EZ bar skull crusher","3(12)","20 lbs"
+"Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight"
+"BB Bench","3(12)","35 lbs","seated incline db curls","3(12,12,10)","35 lbs"
+"DB flys","3(10)","30 lbs","Standing EZ bar curls ","3(12)","25 lbs"
+"bb overhead press","3(12)","15 lbs","Bent over BB row","3(12)","40 lbs"
+"db lateral raises","3(10)","20 lbs","Hammer curls","3(12)","45 lbs"
+"EZ bar skull crusher","3(12)","20 lbs","band pull aparts","3(15)"
