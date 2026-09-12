@@ -706,8 +706,8 @@
 
 === TAB: 9-7 ===
 "Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight"
-"BB Bench","3(10)","40 lbs"
-"DB flys","3(12)","30 lbs"
-"bb overhead press","3(10,10,8)","20 lbs"
-"db lateral raises","3(12)","20 lbs"
-"EZ bar skull crusher","3(12)","20 lbs"
+"BB Bench","3(10)","40 lbs","seated incline db curls","3(12,12,10)","35 lbs"
+"DB flys","3(12)","30 lbs","Standing EZ bar curls ","3(12)","25 lbs"
+"bb overhead press","3(10,10,8)","20 lbs","Bent over BB row","3(12)","40 lbs"
+"db lateral raises","3(12)","20 lbs","Hammer curls","3(12)","45 lbs"
+"EZ bar skull crusher","3(12)","20 lbs","band pull aparts","3(15)"
