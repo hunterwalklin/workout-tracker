@@ -18963,15 +18963,15 @@
             "name": "BB Bench Press",
             "sets": [
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 125.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 125.0
               },
               {
-                "reps": 10,
+                "reps": 8,
                 "weight": 125.0
               }
             ],
@@ -18996,19 +18996,19 @@
             "id": "bf1308"
           },
           {
-            "name": "BB Overhead Press",
+            "name": "DB Shoulder Press",
             "sets": [
               {
-                "reps": 10,
-                "weight": 85.0
+                "reps": 12,
+                "weight": 35.0
+              },
+              {
+                "reps": 12,
+                "weight": 35.0
               },
               {
                 "reps": 10,
-                "weight": 85.0
-              },
-              {
-                "reps": 8,
-                "weight": 85.0
+                "weight": 35.0
               }
             ],
             "id": "bf1309"

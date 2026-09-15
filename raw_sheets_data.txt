@@ -714,8 +714,8 @@
 
 === TAB: 9-14 ===
 "Push dominant","Sets(reps)","weight"
-"BB Bench","3(10)","40 lbs"
+"BB Bench","3(12,12,8)","40 lbs"
 "DB flys","3(12)","30 lbs"
-"bb overhead press","3(10,10,8)","20 lbs"
+"db shoulder press","3(12,12,10)","35 lbs"
 "db lateral raises","3(12)","20 lbs"
 "EZ bar skull crusher","3(12)","20 lbs"
