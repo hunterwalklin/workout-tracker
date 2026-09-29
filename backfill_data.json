@@ -19348,9 +19348,27 @@
   "2026-09-28": {
     "sessions": [
       {
-        "id": "bs1339",
+        "id": "bs1340",
         "type": "Push",
         "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 9,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1335"
+          },
           {
             "name": "DB Chest Fly",
             "sets": [
@@ -19367,7 +19385,7 @@
                 "weight": 30.0
               }
             ],
-            "id": "bf1335"
+            "id": "bf1336"
           },
           {
             "name": "DB Shoulder Press",
@@ -19381,11 +19399,11 @@
                 "weight": 35.0
               },
               {
-                "reps": 10,
+                "reps": 12,
                 "weight": 35.0
               }
             ],
-            "id": "bf1336"
+            "id": "bf1337"
           },
           {
             "name": "DB Lateral Raises",
@@ -19403,25 +19421,25 @@
                 "weight": 20.0
               }
             ],
-            "id": "bf1337"
+            "id": "bf1338"
           },
           {
             "name": "EZ bar skull crusher",
             "sets": [
               {
                 "reps": 12,
-                "weight": 55.0
+                "weight": 60.0
               },
               {
                 "reps": 12,
-                "weight": 55.0
+                "weight": 60.0
               },
               {
                 "reps": 12,
-                "weight": 55.0
+                "weight": 60.0
               }
             ],
-            "id": "bf1338"
+            "id": "bf1339"
           }
         ]
       }
