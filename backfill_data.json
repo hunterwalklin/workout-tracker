@@ -19559,7 +19559,7 @@
                 "weight": 135.0
               },
               {
-                "reps": 9,
+                "reps": 10,
                 "weight": 135.0
               }
             ],
@@ -19624,18 +19624,114 @@
             "sets": [
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 65.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 65.0
               },
               {
                 "reps": 12,
-                "weight": 60.0
+                "weight": 65.0
               }
             ],
             "id": "bf1353"
+          }
+        ]
+      },
+      {
+        "id": "bs1361",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 9,
+                "weight": 40.0
+              },
+              {
+                "reps": 8,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1356"
+          },
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 12,
+                "weight": 65.0
+              },
+              {
+                "reps": 12,
+                "weight": 65.0
+              }
+            ],
+            "id": "bf1357"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              },
+              {
+                "reps": 12,
+                "weight": 130.0
+              }
+            ],
+            "id": "bf1358"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1359"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1360"
           }
         ]
       }
