@@ -19932,5 +19932,201 @@
         ]
       }
     ]
+  },
+  "2026-10-26": {
+    "sessions": [
+      {
+        "id": "bs1382",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1377"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1378"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1379"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 20.0
+              },
+              {
+                "reps": 12,
+                "weight": 20.0
+              },
+              {
+                "reps": 12,
+                "weight": 20.0
+              }
+            ],
+            "id": "bf1380"
+          },
+          {
+            "name": "EZ bar skull crusher",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 6,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1381"
+          }
+        ]
+      },
+      {
+        "id": "bs1389",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1384"
+          },
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1385"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1386"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1387"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1388"
+          }
+        ]
+      }
+    ]
   }
 }
