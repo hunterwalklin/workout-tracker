@@ -20226,6 +20226,102 @@
             "id": "bf1395"
           }
         ]
+      },
+      {
+        "id": "bs1403",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1398"
+          },
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1399"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1400"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1401"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1402"
+          }
+        ]
       }
     ]
   }
