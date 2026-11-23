@@ -20324,5 +20324,183 @@
         ]
       }
     ]
+  },
+  "2026-11-23": {
+    "sessions": [
+      {
+        "id": "bs1409",
+        "type": "Push",
+        "exercises": [
+          {
+            "name": "BB Bench Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 8,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1405"
+          },
+          {
+            "name": "DB Chest Fly",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              },
+              {
+                "reps": 10,
+                "weight": 35.0
+              }
+            ],
+            "id": "bf1406"
+          },
+          {
+            "name": "DB Shoulder Press",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 6,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1407"
+          },
+          {
+            "name": "DB Lateral Raises",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 20.0
+              },
+              {
+                "reps": 12,
+                "weight": 20.0
+              },
+              {
+                "reps": 12,
+                "weight": 20.0
+              }
+            ],
+            "id": "bf1408"
+          }
+        ]
+      },
+      {
+        "id": "bs1416",
+        "type": "Pull",
+        "exercises": [
+          {
+            "name": "Seated Incline DB Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              },
+              {
+                "reps": 10,
+                "weight": 40.0
+              }
+            ],
+            "id": "bf1411"
+          },
+          {
+            "name": "Standing EZ bar curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              },
+              {
+                "reps": 12,
+                "weight": 70.0
+              }
+            ],
+            "id": "bf1412"
+          },
+          {
+            "name": "BB Bent Over Row",
+            "sets": [
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              },
+              {
+                "reps": 10,
+                "weight": 135.0
+              }
+            ],
+            "id": "bf1413"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": [
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              },
+              {
+                "reps": 12,
+                "weight": 45.0
+              }
+            ],
+            "id": "bf1414"
+          },
+          {
+            "name": "Band Pull Aparts",
+            "sets": [
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              },
+              {
+                "reps": 15,
+                "weight": 0
+              }
+            ],
+            "id": "bf1415"
+          }
+        ]
+      }
+    ]
   }
 }
