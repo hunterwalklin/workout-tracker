@@ -779,7 +779,7 @@
 
 === TAB: 11-23 ===
 "Push dominant","Sets(reps)","weight","Pull dominant","Sets(reps)","weight"
-"BB Bench","3(10,10,8)","45 lbs","seated incline db curls","3(12,10,10)","40 lbs"
+"BB Bench","3(10,10,8)","45 lbs","seated incline db curls","3(10)","40 lbs"
 "DB flys","3(10)","35 lbs","Standing EZ bar curls ","3(12)","27.5 lbs"
 "db shoulder press","3(10,10,6)","40 lbs","Bent over BB row","3(10)","45 lbs"
 "db lateral raises","3(12)","20 lbs","Hammer curls","3(12)","45 lbs"
